@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_columns\hr_concrete_trim_001_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_columns\hr_concrete_wall_painted_001_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_columns\hr_concrete_wall_painted_001_green_light.vmt"
+}

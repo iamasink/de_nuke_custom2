@@ -1,0 +1,33 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_control_room/control_room_displays_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/nuke_control_room/control_room_displays_mask_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureSelfIllumMask"		"materials/models/props/de_nuke/hr_nuke/nuke_control_room/control_room_displays_color_selfillum.tga"
+	"F_SELF_ILLUM"		"1"
+	"g_vSelfIllumTint"		"[0.735357 0.735357 0.626210]"
+	"g_flSelfIllumScale"		"1.000000"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_control_room/control_room_displays_color"
+			"$selfillum"		"1"
+			"$selfillumtint"		"[0.5 0.5 .35]"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 .75]"
+			"$envmap"		"environment maps/metal_generic_001"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/nuke_control_room/control_room_displays_mask"
+			"$envmapcontrast"		"0.300000"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

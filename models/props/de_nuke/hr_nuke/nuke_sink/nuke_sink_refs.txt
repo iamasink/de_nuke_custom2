@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_sink\nuke_sink_color.vmt"
+}

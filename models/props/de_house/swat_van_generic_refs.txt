@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_house\swat_van_generic.vmt"
+}

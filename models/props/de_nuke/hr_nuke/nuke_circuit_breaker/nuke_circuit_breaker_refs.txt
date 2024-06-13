@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_circuit_breaker\nuke_circuit_breaker_color.vmt"
+}

@@ -1,0 +1,32 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/window_001/window_001_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/window_001/window_001_selfillum_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureSelfIllumMask"		"materials/models/props/de_nuke/hr_nuke/window_001/window_001_selfillum.tga"
+	"F_SELF_ILLUM"		"1"
+	"g_vSelfIllumTint"		"[0.776781 0.844824 1.000000]"
+	"g_flSelfIllumBrightness"		"1.201634"
+	"g_flSelfIllumScale"		"1.000000"
+	"g_flSelfIllumAlbedoFactor"		"0.125000"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/window_001/window_001"
+			"$envmap"		"environment maps/metal_generic_004"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/window_001/window_001_selfillum"
+			"$selfillumtint"		"[1.3 1.57 2.3]"
+			"$selfillum_envmapmask_alpha"		"1"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

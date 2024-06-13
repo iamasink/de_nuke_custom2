@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_cooling_tower\nuke_cooling_tower_color.vmt"
+}

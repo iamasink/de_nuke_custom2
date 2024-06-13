@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\wires_001\wires_002.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\wires_001\wires_001.vmt"
+}

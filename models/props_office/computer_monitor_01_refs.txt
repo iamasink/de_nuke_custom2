@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props_office\office_props.vmt"
+}

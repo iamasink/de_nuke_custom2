@@ -1,0 +1,30 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/metal/hr_metal/hr_metal_duct_001_color.tga"
+	"TextureNormal"		"materials/metal/hr_metal/hr_metal_duct_001_normals_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"g_flCubeMapScalar"		"0.332808"
+	"TextureRoughness"		"materials/metal/hr_metal/hr_metal_duct_001_normals_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metalvent"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"metal/hr_metal/hr_metal_duct_001_color"
+			"$srgbtint"		"[1.5 1.5 1.5]"
+			"$bumpmap"		"metal/hr_metal/hr_metal_duct_001_normals"
+			"$surfaceprop"		"metalvent"
+			"$detailscale"		"4"
+			"$detailblendfactor"		"2.450000"
+			"$envmap"		"environment maps/metal_generic_003"
+			"$normalmapalphaenvmapmask"		"1"
+			"$envmaptint"		"[.35 .33 .31]"
+		}
+	}
+}

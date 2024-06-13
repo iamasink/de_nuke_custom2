@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\foliage\beech_bark_01.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\foliage\beech_branch_01.vmt"
+}

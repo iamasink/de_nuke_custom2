@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_roof_ac\nuke_roof_ac_box_color.vmt"
+}

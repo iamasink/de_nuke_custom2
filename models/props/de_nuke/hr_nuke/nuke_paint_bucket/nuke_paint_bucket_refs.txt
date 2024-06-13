@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_paint_bucket\nuke_paint_bucket_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_paint_bucket\nuke_paint_bucket_02_color.vmt"
+}

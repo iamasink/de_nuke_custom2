@@ -1,0 +1,43 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/metal/hr_metal/hr_metal_duct_001_color.tga"
+	"TextureLayer1Normal"		"materials/metal/hr_metal/hr_metal_duct_001_normals_normal.tga"
+	"TextureLayer1Roughness"		"materials/metal/hr_metal/hr_metal_duct_001_normals_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1NormalTexCoordCenter"		"[0.000000 0.000000]"
+	"g_vLayer1NormalTexCoordScale"		"[1.000000 1.000000]"
+	"g_flLayer1NormalTexCoordRotation"		"0.000000"
+	"g_vLayer1NormalTexCoordOffset"		"[0.000000 0.000000]"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"F_TEXTURETRANSFORMS"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metalvent"
+	}
+	"legacy_import"
+	{
+		"lightmappedgeneric"
+		{
+			"$basetexture"		"metal/hr_metal/hr_metal_duct_001_color"
+			"$addbumpmaps"		"1"
+			"$bumpmap"		"metal/hr_metal/hr_metal_duct_001_normals"
+			"$bumptransform"		"center 0 0 scale 1 1 rotate 0 translate 0 0"
+			"$bumpdetailscale1"		"1"
+			"$bumpmap2"		"metal/hr_metal/hr_metal_duct_001b_normals"
+			"$bumptransform2"		"center 0 0 scale 2.5 2.5 rotate 0 translate 0 0"
+			"$bumpdetailscale2"		"0.200000"
+			"$noenvmapmip"		"1"
+			"$surfaceprop"		"metalvent"
+			"$detailscale"		"4"
+			"$detailblendfactor"		"2.450000"
+			"$envmap"		"environment maps/metal_generic_003"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 2.0]"
+			"$normalmapalphaenvmapmask"		"1"
+			"$fresnelreflection"		"0.500000"
+		}
+	}
+}

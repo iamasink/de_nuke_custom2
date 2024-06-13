@@ -1,0 +1,22 @@
+"Layer0"
+{
+	"Shader"		"csgo_decalmodulate.vfx"
+	"DecalColor"		"materials/de_nuke/hr_nuke/caustics_004_faded_color.mks"
+	"F_OVERLAY"		"1"
+	"legacy_import"
+	{
+		"decalmodulate"
+		{
+			"$basetexture"		"de_nuke/hr_nuke/caustics_004_faded"
+			"proxies"
+			{
+				"animatedtexture"
+				{
+					"animatedtexturevar"		"$basetexture"
+					"animatedtextureframenumvar"		"$frame"
+					"animatedtextureframerate"		"15.500000"
+				}
+			}
+		}
+	}
+}

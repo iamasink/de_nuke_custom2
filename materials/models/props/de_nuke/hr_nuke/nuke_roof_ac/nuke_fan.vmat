@@ -1,0 +1,41 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_fan_001_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureTranslucency"		"materials/models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_fan_001_color_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.300000"
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_fan_001_color"
+			"$alphatest"		"1"
+			"$allowalphatocoverage"		"1"
+			"$alphatestreference"		"0.300000"
+			"$angle"		"0.000000"
+			"$translate"		"[0.0 0.0]"
+			"$center"		"[.5 .5]"
+			"proxies"
+			{
+				"linearramp"
+				{
+					"rate"		"500"
+					"initialvalue"		"0.000000"
+					"resultvar"		"$angle"
+				}
+				"texturetransform"
+				{
+					"translatevar"		"$translate"
+					"rotatevar"		"$angle"
+					"centervar"		"$center"
+					"resultvar"		"$basetexturetransform"
+				}
+			}
+		}
+	}
+}

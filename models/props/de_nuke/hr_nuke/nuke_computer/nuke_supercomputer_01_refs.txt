@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_computers\nuke_supercomputer_01_color.vmt"
+}

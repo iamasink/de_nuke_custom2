@@ -1,0 +1,17 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/chicken/chicken_catalan_white_tan_head_color.tga"
+	"TextureNormal"		"materials/models/chicken/chicken_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"legacy_import"
+	{
+		"VertexlitGeneric"
+		{
+			"$baseTexture"		"models/chicken/chicken_catalan_white_tan_head_color"
+			"$bumpMap"		"models/chicken/chicken_normal"
+		}
+	}
+}

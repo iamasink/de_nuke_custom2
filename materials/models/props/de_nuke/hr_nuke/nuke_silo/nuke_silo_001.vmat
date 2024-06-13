@@ -1,0 +1,32 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"F_FORCE_UV2" "1"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_silo/nuke_silo_001_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureDecal"		"materials/models/props/de_nuke/hr_nuke/nuke_silo/nuke_silo_001_detail_decal.tga"
+	"F_DECAL_BLEND_MODE"		"0"
+	"TextureDecalTranslucency"		"[1.000000 1.000000 1.000000 0.000000]"
+	"F_DECAL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_silo/nuke_silo_001"
+			"$decaltexture"		"models/props/de_nuke/hr_nuke/nuke_silo/nuke_silo_001_detail"
+			"$decalblendmode          "		"1"
+			"$detailscale"		"[.2 .1]"
+			"$detailblendfactor"		"0.350000"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 1]"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_concrete_barrier\nuke_concrete_block_color.vmt"
+}

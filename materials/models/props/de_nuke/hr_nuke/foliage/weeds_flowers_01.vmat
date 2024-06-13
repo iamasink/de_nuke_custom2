@@ -1,0 +1,29 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/foliage/weeds_flowers_01_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureTranslucency"		"materials/models/props/de_nuke/hr_nuke/foliage/weeds_flowers_01_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.500000"
+	"F_RENDER_BACKFACES"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"wood"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/foliage/weeds_flowers_01"
+			"$alphatest"		"1"
+			"$alphatestreference"		"0.500000"
+			"$nocull"		"1"
+			"$model"		"1"
+			"$surfaceprop"		"wood"
+		}
+	}
+}

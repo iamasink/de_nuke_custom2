@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\wall_bumper_001\wall_bumper_001.vmt"
+}

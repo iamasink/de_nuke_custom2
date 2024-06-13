@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_forklift\forklift_base_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_forklift\forklift_wheels_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_forklift\forklift_fork_color.vmt"
+}

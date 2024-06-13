@@ -1,0 +1,34 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureDetail"		"materials/models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail.tga"
+	"g_vDetailTexCoordScale"		"[2.000000 2.000000]"
+	"g_flDetailBlendFactor"		"1.000000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001"
+			"$detail"		"models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+			"$detailblendfactor"		"1"
+			"$detailscale"		"2"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001"
+			"$envmap"		"models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_cubemap"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 1.0]"
+			"$envmapsaturation"		"0.900000"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

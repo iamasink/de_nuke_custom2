@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_control_room\control_room_displays_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_control_room\control_room_displays_on_color.vmt"
+}

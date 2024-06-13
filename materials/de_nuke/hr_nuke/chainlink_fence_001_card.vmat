@@ -1,0 +1,31 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"Attributes"
+	{
+		"mapbuilder.passbullets"		"1"
+	}
+	"TextureLayer1Color"		"materials/de_nuke/hr_nuke/chainlink_fence_001_card_color.tga"
+	"TextureLayer1Translucency"		"materials/de_nuke/hr_nuke/chainlink_fence_001_card_trans.tga"
+	"F_TRANSLUCENT"		"1"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"F_TEXTURETRANSFORMS"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"lightmappedgeneric"
+		{
+			"$basetexture"		"de_nuke/hr_nuke/chainlink_fence_001_card"
+			"$translucent"		"1"
+			"$alphatestreference"		"0.300000"
+			"$surfaceprop"		"metal"
+			"%compilepassbullets"		"1"
+		}
+	}
+}

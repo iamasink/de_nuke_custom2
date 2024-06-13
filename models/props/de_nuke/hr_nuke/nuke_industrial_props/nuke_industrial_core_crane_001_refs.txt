@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_industrial_props\nuke_industrial_props_002.vmt"
+}

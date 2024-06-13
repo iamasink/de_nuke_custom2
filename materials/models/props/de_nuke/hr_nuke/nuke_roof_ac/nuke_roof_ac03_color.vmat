@@ -1,0 +1,34 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_roof_ac03_ao_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_roof_ac03_ao_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureDetail"		"materials/metal/hr_metal/hr_metal_detail_001_detail.tga"
+	"g_vDetailTexCoordScale"		"[2.500000 2.500000]"
+	"g_flDetailBlendFactor"		"0.600000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_roof_ac03_ao"
+			"$detail"		"metal/hr_metal/hr_metal_detail_001"
+			"$detailscale"		"2.500000"
+			"$detailblendfactor"		"0.600000"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 1]"
+			"$envmap"		"environment maps/metal_generic_002"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/nuke_roof_ac/nuke_roof_ac03_ao"
+			"$envmapcontrast"		"0.500000"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

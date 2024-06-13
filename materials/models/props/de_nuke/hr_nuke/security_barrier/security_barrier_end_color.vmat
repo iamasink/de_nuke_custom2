@@ -1,0 +1,37 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/security_barrier/security_barrier_end_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/security_barrier/security_barrier_end_color_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureTintMask"		"materials/models/props/de_nuke/hr_nuke/security_barrier/security_barrier_end_color_tintmask.tga"
+	"F_TINT_MASK"		"1"
+	"TextureDetail"		"materials/metal/hr_metal/hr_metal_detail_001_detail.tga"
+	"g_vDetailTexCoordScale"		"[2.000000 2.000000]"
+	"g_flDetailBlendFactor"		"0.650000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/security_barrier/security_barrier_end_color"
+			"$blendtintbybasealpha"		"1"
+			"$detail"		"metal/hr_metal/hr_metal_detail_001"
+			"$detailscale"		"2"
+			"$detailblendfactor"		"0.650000"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 0.5]"
+			"$envmap"		"environment maps/metal_generic_005"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/security_barrier/security_barrier_end_color"
+			"$envmapcontrast"		"0.400000"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

@@ -1,0 +1,29 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_skylight/nuke_skylight_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"TextureDetail"		"materials/metal/hr_metal/hr_metal_detail_001_detail.tga"
+	"g_vDetailTexCoordScale"		"[2.000000 2.000000]"
+	"g_flDetailBlendFactor"		"0.650000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_skylight/nuke_skylight_color"
+			"$detail"		"metal/hr_metal/hr_metal_detail_001"
+			"$detailscale"		"2"
+			"$detailblendfactor"		"0.650000"
+			"$envmaplightscaleminmax"		"[0 2]"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

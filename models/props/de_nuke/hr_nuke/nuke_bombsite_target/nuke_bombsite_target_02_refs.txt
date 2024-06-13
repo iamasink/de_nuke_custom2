@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_bombsite_target\nuke_bombsite_target01_color.vmt"
+}

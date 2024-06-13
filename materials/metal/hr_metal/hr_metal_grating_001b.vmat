@@ -1,0 +1,38 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"Attributes"
+	{
+		"mapbuilder.passbullets"		"1"
+	}
+	"TextureLayer1Color"		"materials/metal/hr_metal/hr_metal_grating_001_color.tga"
+	"TextureLayer1Translucency"		"materials/metal/hr_metal/hr_metal_grating_001_color_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.300000"
+	"TextureLayer1Roughness"		"materials/metal/hr_metal/hr_metal_grating_001_specmask_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"F_TEXTURETRANSFORMS"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metalgrate"
+	}
+	"legacy_import"
+	{
+		"lightmappedgeneric"
+		{
+			"$basetexture"		"metal/hr_metal/hr_metal_grating_001_color"
+			"%compilepassbullets"		"1"
+			"$alphatest"		"1"
+			"$allowalphatocoverage"		"1"
+			"$alphatestreference"		"0.300000"
+			"$envmap"		"environment maps/metal_generic_001"
+			"$envmapmask"		"metal/hr_metal/hr_metal_grating_001_specmask"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[.0 1.5]"
+			"$surfaceprop"		"metalgrate"
+		}
+	}
+}

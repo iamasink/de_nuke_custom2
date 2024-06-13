@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_industrial_props\hr_concrete_wall_006_color.vmt"
+}

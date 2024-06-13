@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_signs\hr_area_signs_decal_001_color.vmt"
+}

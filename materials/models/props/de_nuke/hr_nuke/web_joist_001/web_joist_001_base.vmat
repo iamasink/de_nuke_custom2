@@ -1,0 +1,30 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_base_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"F_NOTINT"		"1"
+	"TextureDetail"		"materials/models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_block_detail.tga"
+	"g_vDetailTexCoordScale"		"[3.000000 3.000000]"
+	"g_flDetailBlendFactor"		"2.000000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"concrete"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/web_joist_001/web_joist_001_base"
+			"$notint"		"1"
+			"$detail"		"models/props/de_nuke/hr_nuke/nuke_concrete_barrier/nuke_concrete_block_detail"
+			"$detailscale"		"[3 3]"
+			"$detailblendfactor"		"2"
+			"$surfaceprop"		"concrete"
+		}
+	}
+}

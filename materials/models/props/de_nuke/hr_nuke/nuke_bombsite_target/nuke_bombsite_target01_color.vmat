@@ -1,0 +1,39 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_target01_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_target01_mask_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureTranslucency"		"[1.000000 1.000000 1.000000 0.000000]"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.300000"
+	"TextureDetail"		"materials/models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail.tga"
+	"g_vDetailTexCoordScale"		"[1.500000 3.000000]"
+	"g_flDetailBlendFactor"		"0.750000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_target01_color"
+			"$srgbtint"		"[1.35 1.35 1.35]"
+			"$alphatest"		"1"
+			"$alphatestreference"		"0.300000"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/nuke_bombsite_target/nuke_bombsite_target01_mask"
+			"$detail"		"models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+			"$detailscale"		"[1.5 3]"
+			"$detailblendfactor"		"0.750000"
+			"$envmap"		"environment maps/metal_generic_006"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 5]"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

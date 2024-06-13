@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_train\hr_t\fire_hose_wa\fire_hose_wa.vmt"
+}

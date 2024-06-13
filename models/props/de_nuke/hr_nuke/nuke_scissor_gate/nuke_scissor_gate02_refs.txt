@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_scissor_gate\nuke_scissor_gate_color.vmt"
+}

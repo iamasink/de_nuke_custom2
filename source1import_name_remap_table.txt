@@ -1,0 +1,7 @@
+"name_remap_table"
+{
+	"src2filenamechange"
+	{
+		"maps\de_nuke_custom_prefab.vmap"		"maps\de_nuke_custom.vmf"
+	}
+}

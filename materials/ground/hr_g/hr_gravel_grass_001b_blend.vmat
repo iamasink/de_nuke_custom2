@@ -1,0 +1,43 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/nature/hr_c/hr_grass_001_color.tga"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureLayer2Color"		"materials/ground/hr_g/hr_gravel_001_color.tga"
+	"TextureLayer2Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer2AmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureBlendModulation"		"materials/nature/hr_c/hr_grass_001_blend.tga"
+	"F_LAYERS"		"1"
+	"g_vLayer1TexCoordCenter"		"[0.000000 0.000000]"
+	"g_vLayer1TexCoordScale"		"[1.125000 1.125000]"
+	"g_flLayer1TexCoordRotation"		"0.000000"
+	"g_vLayer1TexCoordOffset"		"[0.000000 0.000000]"
+	"g_vLayer1Tint"		"[1.000000 1.000000 1.000000]"
+	"g_vLayer2Tint"		"[1.000000 1.000000 1.000000]"
+	"F_FANCY_BLENDING"		"1"
+	"F_TEXTURETRANSFORMS"		"1"
+	"TextureLayer1Detail"		"materials/asphalt/hr_c/hr_asphalt_001_detail_color.tga"
+	"g_vLayer1DetailScale"		"[0.150000 0.150000]"
+	"g_vLayer1DetailTintAndBlend"		"[1.000000 1.000000 1.000000 1.000000]"
+	"F_DETAILTEXTURE"		"1"
+	"F_DETAILBLENDMODE"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"gravel"
+	}
+	"legacy_import"
+	{
+		"worldvertextransition"
+		{
+			"$basetexture2"		"ground/hr_g/hr_gravel_001_color"
+			"$basetexture"		"nature/hr_c/hr_grass_001_color"
+			"$blendmodulatetexture"		"nature/hr_c/hr_grass_001_blend"
+			"$basetexturetransform"		"center 0 0 scale 1.125 1.125 rotate 0 translate 0 0"
+			"$detail"		"asphalt/hr_c/hr_asphalt_001_detail"
+			"$detailscale"		"0.150000"
+			"$detailblendfactor"		"1.000000"
+			"$surfaceprop"		"gravel"
+		}
+	}
+}

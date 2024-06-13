@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_light_fixture\recessed_lighting_fixture_round_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_light_fixture\recessed_lighting_fixture_round_on_color.vmt"
+}

@@ -1,0 +1,20 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_ac_inset/nuke_ac_inset_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_ac_inset/nuke_ac_inset_color"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 .8]"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/nuke_ac_inset/nuke_ac_inset_color"
+			"$envmapsaturation"		"0.750000"
+		}
+	}
+}

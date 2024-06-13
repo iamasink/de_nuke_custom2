@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_electric_panel\nuke_electric_panel02_color.vmt"
+}

@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_train\hr_t\i_beam_f\i_beam_f.vmt"
+}

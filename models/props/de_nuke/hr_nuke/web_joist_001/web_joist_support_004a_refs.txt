@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\web_joist_001\web_joist_001_base.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\web_joist_001\web_joist_001.vmt"
+}

@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\gas_meter\gas_meter_pipes_color.vmt"
+}

@@ -1,0 +1,37 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/foliage/beech_bark_01_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/default/default_rough_s1import.tga"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"wood"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/foliage/beech_bark_01"
+			"$model"		"1"
+			"$surfaceprop"		"wood"
+			"$treesway"		"1"
+			"$treeswayheight"		"100"
+			"$treeswaystartheight"		"0.500000"
+			"$treeswayradius"		"200"
+			"$treeswaystartradius"		"0.000000"
+			"$treeswayspeed"		"0.200000"
+			"$treeswaystrength"		"0.250000"
+			"$treeswayscrumblespeed"		"1.200000"
+			"$treeswayscrumblestrength"		"0.500000"
+			"$treeswayscrumblefrequency"		"2"
+			"$treeswayfalloffexp"		"2"
+			"$treeswayscrumblefalloffexp"		"3"
+			"$treeswayspeedhighwindmultiplier"		"0"
+			"$treeswayspeedlerpstart"		"200.000000"
+			"$treeswayspeedlerpend"		"600.000000"
+		}
+	}
+}

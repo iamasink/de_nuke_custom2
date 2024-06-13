@@ -1,0 +1,34 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_industrial_props/nuke_industrial_props_002_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/nuke_industrial_props/nuke_industrial_props_002_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureDetail"		"materials/models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail.tga"
+	"g_vDetailTexCoordScale"		"[0.920000 0.920000]"
+	"g_flDetailBlendFactor"		"0.250000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"metal"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_industrial_props/nuke_industrial_props_002"
+			"$basealphaenvmapmask"		"1"
+			"$envmap"		"environment maps/metal_generic_003"
+			"$detail"		"models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+			"$detailscale"		"0.920000"
+			"$detailblendfactor"		"0.250000"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 1.0]"
+			"$envmapsaturation"		"0.800000"
+			"$surfaceprop"		"metal"
+		}
+	}
+}

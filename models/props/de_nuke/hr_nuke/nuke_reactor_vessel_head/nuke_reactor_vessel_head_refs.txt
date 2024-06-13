@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_reactor_vessel_head\nuke_reactor_vessel_head_color.vmt"
+}

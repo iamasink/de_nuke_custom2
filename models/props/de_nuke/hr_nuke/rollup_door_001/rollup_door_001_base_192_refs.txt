@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\rollup_door_001\rollup_door_001.vmt"
+}

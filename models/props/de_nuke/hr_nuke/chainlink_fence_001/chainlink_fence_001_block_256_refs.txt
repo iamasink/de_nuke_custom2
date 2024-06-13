@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\chainlink_fence_001\chainlink_fence_001.vmt"
+}

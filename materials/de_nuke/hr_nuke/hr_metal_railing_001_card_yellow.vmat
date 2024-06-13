@@ -1,0 +1,28 @@
+"Layer0"
+{
+	"Shader"		"csgo_lightmappedgeneric.vfx"
+	"TextureLayer1Color"		"materials/de_nuke/hr_nuke/hr_metal_railing_001_card_color.tga"
+	"TextureLayer1Translucency"		"materials/de_nuke/hr_nuke/hr_metal_railing_001_card_color_trans.tga"
+	"F_ALPHA_TEST"		"1"
+	"g_flAlphaTestReference"		"0.200000"
+	"TextureLayer1Normal"		"materials/de_nuke/hr_nuke/hr_metal_railing_001_card_normals_normal.tga"
+	"TextureLayer1Roughness"		"materials/default/default_rough_s1import.tga"
+	"TextureLayer1AmbientOcclusion"		"materials/default/default_ao.tga"
+	"F_LAYERS"		"0"
+	"g_vLayer1Tint"		"[0.968307 0.880315 0.534186]"
+	"F_TEXTURETRANSFORMS"		"0"
+	"F_RENDER_BACKFACES"		"1"
+	"legacy_import"
+	{
+		"lightmappedgeneric"
+		{
+			"$basetexture"		"de_nuke/hr_nuke/hr_metal_railing_001_card_color"
+			"$alphatest"		"1"
+			"$allowalphatocoverage"		"1"
+			"$alphatestreference"		"0.200000"
+			"$bumpmap"		"de_nuke/hr_nuke/hr_metal_railing_001_card_normals"
+			"$nocull"		"1"
+			"$color"		"{237 191 63}"
+		}
+	}
+}

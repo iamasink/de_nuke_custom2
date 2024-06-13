@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\rubber_bumper\rubber_bumper_color.vmt"
+}

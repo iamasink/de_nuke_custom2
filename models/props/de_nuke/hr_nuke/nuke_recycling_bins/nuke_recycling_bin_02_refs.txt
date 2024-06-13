@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_recycle_bin\nuke_recycle_bin_02_color.vmt"
+}

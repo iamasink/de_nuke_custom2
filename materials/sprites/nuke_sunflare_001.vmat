@@ -1,0 +1,19 @@
+"Layer0"
+{
+	"Shader"		"csgo_unlitgeneric.vfx"
+	"F_UNLIT"		"1"
+	"TextureColor"		"materials/sprites/nuke_sunflare_001_color.tga"
+	"F_VERTEX_COLOR"		"1"
+	"F_DISABLE_Z_BUFFERING"		"1"
+	"F_BLEND_MODE"		"4"
+	"legacy_import"
+	{
+		"unlitgeneric"
+		{
+			"$basetexture"		"sprites/nuke_sunflare_001"
+			"$additive"		"1"
+			"$vertexcolor"		"1"
+			"$ignorez"		"1"
+		}
+	}
+}

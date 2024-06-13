@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\cs_office\light_ceiling.vmt"
+	"file"	"materials\models\props\cs_office\light_ceiling_off.vmt"
+}

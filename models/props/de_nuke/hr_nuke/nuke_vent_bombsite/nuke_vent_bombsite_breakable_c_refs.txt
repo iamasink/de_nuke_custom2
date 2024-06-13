@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_vent_bombsite\nuke_vent_bombsite_color.vmt"
+}

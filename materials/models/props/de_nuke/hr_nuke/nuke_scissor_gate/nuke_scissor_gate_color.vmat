@@ -1,0 +1,28 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/models/props/de_nuke/hr_nuke/nuke_scissor_gate/nuke_scissor_gate_color.tga"
+	"TextureNormal"		"materials/default/default_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"TextureRoughness"		"materials/models/props/de_nuke/hr_nuke/nuke_scissor_gate/nuke_scissor_gate_color_rough.tga"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureDetail"		"materials/models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail.tga"
+	"g_vDetailTexCoordScale"		"[2.570000 2.570000]"
+	"g_flDetailBlendFactor"		"0.700000"
+	"F_DETAIL_TEXTURE"		"1"
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"models/props/de_nuke/hr_nuke/nuke_scissor_gate/nuke_scissor_gate_color"
+			"$detail"		"models/props/de_nuke/hr_nuke/metal_crate_001/metal_crate_001_detail"
+			"$detailscale"		"2.570000"
+			"$detailblendfactor"		"0.700000"
+			"$envmapmask"		"models/props/de_nuke/hr_nuke/nuke_scissor_gate/nuke_scissor_gate_color"
+			"$envmap"		"environment maps/metal_generic_002"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[0 .5]"
+		}
+	}
+}

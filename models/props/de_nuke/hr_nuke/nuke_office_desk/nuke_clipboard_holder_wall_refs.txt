@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_office_desk\nuke_clipboard_holder_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_office_desk\nuke_clipboard_color.vmt"
+}

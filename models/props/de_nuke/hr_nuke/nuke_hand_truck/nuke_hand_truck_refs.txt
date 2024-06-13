@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_hand_truck\nuke_hand_truck_color.vmt"
+}

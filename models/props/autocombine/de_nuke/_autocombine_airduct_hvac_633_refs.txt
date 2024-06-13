@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\airduct_hvac_001\airduct_hvac_001.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\airduct_hvac_001\airduct_hvac_001b.vmt"
+}

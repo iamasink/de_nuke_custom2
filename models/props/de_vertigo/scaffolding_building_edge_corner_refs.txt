@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_vertigo\scaffoldinggrate.vmt"
+	"file"	"materials\models\props\de_vertigo\scaffolding.vmt"
+}

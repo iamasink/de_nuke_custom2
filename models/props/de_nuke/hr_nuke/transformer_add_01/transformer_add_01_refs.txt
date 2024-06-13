@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\transformer_add_01\transformer_add_01_color.vmt"
+}

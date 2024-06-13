@@ -1,0 +1,19 @@
+"Layer0"
+{
+	"Shader"		"csgo_decalmodulate.vfx"
+	"DecalColor"		"materials/de_nuke/hr_nuke/asphalt_crack_03_color.tga"
+	"DecalTranslucency"		"materials/de_nuke/hr_nuke/asphalt_crack_03_trans.tga"
+	"F_OVERLAY"		"1"
+	"legacy_import"
+	{
+		"decalmodulate"
+		{
+			"$basetexture"		"de_nuke/hr_nuke/asphalt_crack_03"
+			"$translucent"		"1"
+			"$decal"		"1"
+			"$decalscale"		"0.250000"
+			"$vertexcolor"		"1"
+			"$vertexalpha"		"1"
+		}
+	}
+}

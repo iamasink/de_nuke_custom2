@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\medium_silo_frame\medium_silo_frame_color.vmt"
+}

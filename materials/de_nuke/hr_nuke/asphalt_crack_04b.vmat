@@ -1,0 +1,17 @@
+"Layer0"
+{
+	"Shader"		"csgo_decalmodulate.vfx"
+	"DecalColor"		"materials/de_nuke/hr_nuke/asphalt_crack_04b_color.tga"
+	"F_OVERLAY"		"1"
+	"legacy_import"
+	{
+		"decalmodulate"
+		{
+			"$basetexture"		"de_nuke/hr_nuke/asphalt_crack_04b"
+			"$decal"		"1"
+			"$decalscale"		"0.250000"
+			"$vertexcolor"		"1"
+			"$vertexalpha"		"1"
+		}
+	}
+}

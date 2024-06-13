@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_hard_hat\nuke_hard_hat_color.vmt"
+}

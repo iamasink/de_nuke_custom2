@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_controlroom_light\nuke_controlroom_light_001.vmt"
+}

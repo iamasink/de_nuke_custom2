@@ -1,0 +1,4 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\security_barrier\security_barrier_end_color.vmt"
+}

@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"Shader"		"csgo_unlitgeneric.vfx"
+	"F_UNLIT"		"1"
+	"TextureColor"		"materials/models/props/de_nuke/skylight_effects_color.tga"
+	"F_BLEND_MODE"		"4"
+	"F_RENDER_BACKFACES"		"1"
+	"legacy_import"
+	{
+		"UnlitGeneric"
+		{
+			"$basetexture"		"models\props\de_nuke\skylight_effects"
+			"$additive"		"1"
+			"$translucent"		"1"
+			"$nocull"		"1"
+			"$depthfade"		"1"
+			"$model"		"1"
+			"srgb?$color2"		"[.5 .5 .5]"
+		}
+	}
+}

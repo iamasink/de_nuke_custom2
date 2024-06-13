@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_vending_machine\nuke_vending_machine_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_vending_machine\nuke_snack_machine_color.vmt"
+}

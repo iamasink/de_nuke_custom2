@@ -1,0 +1,10 @@
+importfilelist
+{
+	"file"	"materials\models\chicken\chicken_catalan_tan.vmt"
+	"file"	"materials\models\chicken\chicken_catalan_black.vmt"
+	"file"	"materials\models\chicken\chicken_catalan_black_white_head.vmt"
+	"file"	"materials\models\chicken\chicken_catalan_white.vmt"
+	"file"	"materials\models\chicken\chicken_catalan_white_tan_head.vmt"
+	"file"	"materials\models\props_farm\chicken_bday_hat.vmt"
+	"file"	"materials\models\props_farm\chicken.vmt"
+}

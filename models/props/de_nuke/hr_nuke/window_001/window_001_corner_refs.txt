@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\window_001\window_001.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\window_001\window_001b.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\window_001\window_001c.vmt"
+}

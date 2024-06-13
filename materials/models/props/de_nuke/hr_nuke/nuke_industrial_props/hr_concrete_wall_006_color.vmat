@@ -1,0 +1,36 @@
+"Layer0"
+{
+	"Shader"		"csgo_vertexlitgeneric.vfx"
+	"TextureColor"		"materials/concrete/hr_c/hr_concrete_wall_006_color.tga"
+	"TextureNormal"		"materials/concrete/hr_c/hr_concrete_wall_006_normals_normal.tga"
+	"TextureAmbientOcclusion"		"materials/default/default_ao.tga"
+	"TextureMetalness"		"[0.000000 0.000000 0.000000]"
+	"g_flCubeMapScalar"		"0.200000"
+	"F_SPECULAR_INDIRECT"		"1"
+	"TextureRoughness"		"[0.817125 0.817125 0.817125 1.000000]"
+	"TextureDetail"		"materials/concrete/hr_c/hr_concrete_wall_006_detail.tga"
+	"g_vDetailTexCoordScale"		"[0.350000 0.500000]"
+	"g_flDetailBlendFactor"		"0.500000"
+	"F_DETAIL_TEXTURE"		"1"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"concrete"
+	}
+	"legacy_import"
+	{
+		"vertexlitgeneric"
+		{
+			"$basetexture"		"concrete/hr_c/hr_concrete_wall_006_color"
+			"$bumpmap"		"concrete/hr_c/hr_concrete_wall_006_normals"
+			"$surfaceprop"		"concrete"
+			"$envmap"		"environment maps/metal_generic_001"
+			"$envmaplightscale"		"1"
+			"$envmaplightscaleminmax"		"[.0 0.25]"
+			"$envmaptint"		"[.2 .2 .2]"
+			"$envmapcontrast"		"0.200000"
+			"$detail"		"concrete/hr_c/hr_concrete_wall_006_detail"
+			"$detailscale"		"[.35 .5]"
+			"$detailblendfactor"		"0.500000"
+		}
+	}
+}

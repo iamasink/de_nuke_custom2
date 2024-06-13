@@ -1,0 +1,21 @@
+"Layer0"
+{
+	"Shader"		"csgo_unlitgeneric.vfx"
+	"F_UNLIT"		"1"
+	"TextureColor"		"[1.000000 1.000000 1.000000 1.000000]"
+	"g_vColorTint"		"[1.000000 1.000000 0.954687]"
+	"F_BLEND_MODE"		"0"
+	"SystemAttributes"
+	{
+		"PhysicsSurfaceProperties"		"glass"
+	}
+	"legacy_import"
+	{
+		"unlitgeneric"
+		{
+			"$basetexture"		"de_nuke/hr_nuke/window_illum_001_color"
+			"$surfaceprop"		"glass"
+			"$color"		"[1 1 .9]"
+		}
+	}
+}

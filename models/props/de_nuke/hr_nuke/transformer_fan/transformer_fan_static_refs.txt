@@ -1,0 +1,5 @@
+importfilelist
+{
+	"file"	"materials\models\props\de_nuke\hr_nuke\transformer_fan\transformer_fan_color.vmt"
+	"file"	"materials\models\props\de_nuke\hr_nuke\nuke_roof_ac\nuke_fan.vmt"
+}
