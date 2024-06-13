@@ -1,7 +1,7 @@
 <!-- dmx encoding keyvalues2 4 format vmap 37 -->
 "$prefix_element$"
 {
-	"id" "elementid" "e9784c36-9fa4-4d02-ae7d-6b8fd5e8cd8d"
+	"id" "elementid" "24568ed8-816d-48f4-9988-28864846ef45"
 	"map_asset_references" "string_array" 
 	[
 		"maps/prefabs/skybox2.vmap",
