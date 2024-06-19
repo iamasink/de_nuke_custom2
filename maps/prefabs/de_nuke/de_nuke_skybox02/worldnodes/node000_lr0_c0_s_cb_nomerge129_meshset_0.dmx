@@ -1,0 +1,121 @@
+<!-- dmx encoding keyvalues2 4 format model 22 -->
+"DmElement"
+{
+    "id" "elementid" "3cbb8a7e-ae36-4752-9caf-c644a22f8e8e"
+    "name" "string" "root"
+    "skeleton" "element" "e6052e8a-f309-42d3-a154-7d60582706a5"
+    "model" "element" "e6052e8a-f309-42d3-a154-7d60582706a5"
+    "exportTags" "DmeExportTags"
+    {
+        "id" "elementid" "7615918c-875c-4ee1-b968-3a861043a4fb"
+        "name" "string" "exportTags"
+        "source" "string" "Generated with Source 2 Viewer 6.0.0.0 - https://valveresourceformat.github.io"
+    }
+}
+
+"DmeModel"
+{
+    "id" "elementid" "e6052e8a-f309-42d3-a154-7d60582706a5"
+    "name" "string" "node000_lr0_c0_s_cb_nomerge129_meshset_0"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "b38ea2e8-c7ac-4166-b4dc-ba7c02851e72"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "element" ""
+    "visible" "bool" "1"
+    "children" "element_array"
+    [
+        "element" "f095ca8e-6ee5-40bc-8241-f292dff8a2d5"
+    ]
+    "jointList" "element_array"
+    [
+        "element" "f095ca8e-6ee5-40bc-8241-f292dff8a2d5"
+    ]
+    "baseStates" "element_array"
+    [
+        "DmeTransformsList"
+        {
+            "id" "elementid" "12600ca8-e831-4455-85eb-c80001e766e2"
+            "transforms" "element_array"
+            [
+                "DmeTransform"
+                {
+                    "id" "elementid" "24811201-bcb9-4265-a634-a8493cf97e6c"
+                    "position" "vector3" "0 0 0"
+                    "orientation" "quaternion" "0 0 0 1"
+                }
+            ]
+        }
+    ]
+    "axisSystem" "DmeAxisSystem"
+    {
+        "id" "elementid" "6f56e497-3222-4f08-924f-59f50e565ab8"
+        "upAxis" "int" "3"
+        "forwardParity" "int" "1"
+        "coordSys" "int" "0"
+    }
+}
+
+"DmeDag"
+{
+    "id" "elementid" "f095ca8e-6ee5-40bc-8241-f292dff8a2d5"
+    "name" "string" "node000_lr0_c0_s_cb_nomerge129_meshset_0"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "e438960e-2c82-45d3-aa94-427b4e144d00"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "DmeMesh"
+    {
+        "id" "elementid" "1281f05c-a57f-48dc-a033-4485518e42c2"
+        "visible" "bool" "1"
+        "bindState" "element" ""
+        "currentState" "element" "de26f15c-6ccd-44f1-bf35-1e578506ce90"
+        "baseStates" "element_array"
+        [
+            "element" "de26f15c-6ccd-44f1-bf35-1e578506ce90"
+        ]
+        "deltaStates" "element_array" [ ]
+        "faceSets" "element_array"
+        [
+            "DmeFaceSet"
+            {
+                "id" "elementid" "4d3c8c7c-3f1c-4220-8f9a-fdf56d2426f1"
+                "name" "string" "0..3"
+                "faces" "int_array" [ "0", "1", "2", "-1" ]
+                "material" "DmeMaterial"
+                {
+                    "id" "elementid" "468352ac-cd44-4dbc-885a-010b88f6d1a3"
+                    "name" "string" "material"
+                    "mtlName" "string" "materials/models/props/de_nuke/hr_nuke/nuke_skydome_001/nuke_clouds_003.vmat"
+                }
+            }
+        ]
+        "deltaStateWeights" "vector2_array" [ ]
+        "deltaStateWeightsLagged" "vector2_array" [ ]
+    }
+    "visible" "bool" "1"
+    "children" "element_array" [ ]
+}
+
+"DmeVertexData"
+{
+    "id" "elementid" "de26f15c-6ccd-44f1-bf35-1e578506ce90"
+    "name" "string" "bind"
+    "vertexFormat" "string_array" [ "position$0", "texcoord$0", "normal$0", "tangent$0", "VertexPaintTintColor$0" ]
+    "jointCount" "int" "0"
+    "flipVCoordinates" "bool" "0"
+    "position$0" "vector3_array" [ "4702.9062 -3630.5938 1946.9375", "5413 -1804.5938 1946.9375", "8123.4062 -2343.7188 1599.0938" ]
+    "position$0Indices" "int_array" [ "0", "1", "2" ]
+    "texcoord$0" "vector2_array" [ "0.6465041 0.5540941", "0.61937314 0.6017945", "0.6792505 0.6528214" ]
+    "texcoord$0Indices" "int_array" [ "0", "1", "2" ]
+    "normal$0" "vector3_array" [ "-0.091501445 0.055793546 -0.9942407", "-0.10523024 0.021922939 -0.9942062", "-0.14026064 0.027147194 -0.9897424" ]
+    "normal$0Indices" "int_array" [ "0", "1", "2" ]
+    "tangent$0" "vector4_array" [ "0.6198964 -0.77819276 -0.10071963 -1", "0.62014645 -0.7800999 -0.082840204 -1", "0.6168484 -0.7795263 -0.108797505 -1" ]
+    "tangent$0Indices" "int_array" [ "0", "1", "2" ]
+    "VertexPaintTintColor$0" "vector4_array" [ "0.6392157 0.8392157 0.99607843 0.4", "0.6392157 0.8392157 0.99607843 0.39215687", "0.88235295 0.9490196 0.99607843 0.4392157" ]
+    "VertexPaintTintColor$0Indices" "int_array" [ "0", "1", "2" ]
+}

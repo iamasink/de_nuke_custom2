@@ -1,0 +1,122 @@
+<!-- dmx encoding keyvalues2 4 format model 22 -->
+"DmElement"
+{
+    "id" "elementid" "2659ceda-feea-4c08-9f10-0df8ac8e83a3"
+    "name" "string" "root"
+    "skeleton" "element" "f3210d9a-dad5-44e2-b811-7e63d65f9c3d"
+    "model" "element" "f3210d9a-dad5-44e2-b811-7e63d65f9c3d"
+    "exportTags" "DmeExportTags"
+    {
+        "id" "elementid" "b3a393d1-f1fe-442f-92bc-cee205eec9a7"
+        "name" "string" "exportTags"
+        "source" "string" "Generated with Source 2 Viewer 10.0.0.0 - https://valveresourceformat.github.io"
+    }
+}
+
+"DmeModel"
+{
+    "id" "elementid" "f3210d9a-dad5-44e2-b811-7e63d65f9c3d"
+    "name" "string" "node000_prop0_lr0_agg16_88_tree_beech_card_01_no_motion_meshset_0"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "01eeab33-d4be-421a-8bd5-4da22b134d86"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "element" ""
+    "visible" "bool" "1"
+    "children" "element_array"
+    [
+        "element" "da8842cb-213e-40c8-abe9-2030d15637c2"
+    ]
+    "jointList" "element_array"
+    [
+        "element" "da8842cb-213e-40c8-abe9-2030d15637c2"
+    ]
+    "baseStates" "element_array"
+    [
+        "DmeTransformsList"
+        {
+            "id" "elementid" "0fed4f4c-0194-4a88-a053-b68e5ae549f7"
+            "transforms" "element_array"
+            [
+                "DmeTransform"
+                {
+                    "id" "elementid" "26cf4268-e215-4142-b463-0fd7c002b5e2"
+                    "position" "vector3" "0 0 0"
+                    "orientation" "quaternion" "0 0 0 1"
+                }
+            ]
+        }
+    ]
+    "axisSystem" "DmeAxisSystem"
+    {
+        "id" "elementid" "2c50dd3a-d444-43c4-84fc-55406662bb6d"
+        "upAxis" "int" "3"
+        "forwardParity" "int" "1"
+        "coordSys" "int" "0"
+    }
+}
+
+"DmeDag"
+{
+    "id" "elementid" "da8842cb-213e-40c8-abe9-2030d15637c2"
+    "name" "string" "node000_prop0_lr0_agg16_88_tree_beech_card_01_no_motion_meshset_0"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "4615aaed-533d-4258-89d4-165b51e6d973"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "DmeMesh"
+    {
+        "id" "elementid" "bf5fb549-2b05-4101-a7fa-7157236a85af"
+        "name" "string" "draw0"
+        "visible" "bool" "1"
+        "bindState" "element" ""
+        "currentState" "element" "e5a583a6-aa88-4210-9d99-d071d0a7da49"
+        "baseStates" "element_array"
+        [
+            "element" "e5a583a6-aa88-4210-9d99-d071d0a7da49"
+        ]
+        "deltaStates" "element_array" [ ]
+        "faceSets" "element_array"
+        [
+            "DmeFaceSet"
+            {
+                "id" "elementid" "7f5fba81-fab8-4332-be49-db89f6068729"
+                "name" "string" "0..144"
+                "faces" "int_array" [ "0", "1", "2", "-1", "0", "2", "3", "-1", "3", "2", "4", "-1", "3", "4", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1", "5", "5", "5", "-1" ]
+                "material" "DmeMaterial"
+                {
+                    "id" "elementid" "a41e9633-7814-4c59-80cf-17c20d3fe623"
+                    "name" "string" "material"
+                    "mtlName" "string" "materials/models/props/de_nuke/hr_nuke/foliage/tree_beech_card_01_no_motion.vmat"
+                }
+            }
+        ]
+        "deltaStateWeights" "vector2_array" [ ]
+        "deltaStateWeightsLagged" "vector2_array" [ ]
+    }
+    "visible" "bool" "1"
+    "children" "element_array" [ ]
+}
+
+"DmeVertexData"
+{
+    "id" "elementid" "e5a583a6-aa88-4210-9d99-d071d0a7da49"
+    "name" "string" "bind"
+    "vertexFormat" "string_array" [ "position$0", "texcoord$0", "normal$0", "tangent$0", "color$0" ]
+    "jointCount" "int" "0"
+    "flipVCoordinates" "bool" "0"
+    "position$0" "vector3_array" [ "-9.375 -0.34801716 1.9371757E-06", "10.125 -0.3480163 -2.0921498E-06", "10.125004 -0.3480163 15.999998", "-11.999996 -0.34801728 16.000002", "4.0625067 -0.34801656 32", "-7.9999933 -0.3480171 32" ]
+    "position$0Indices" "int_array" [ "0", "1", "2", "3", "4", "5" ]
+    "texcoord$0" "vector2_array" [ "0.42283395 -0.00054933317", "0.10647908 -0.00054933317", "0.10647908 0.24900052", "0.4653157 0.24900052", "0.20480971 0.49851984", "0.40061647 0.49851984" ]
+    "texcoord$0Indices" "int_array" [ "0", "1", "2", "3", "4", "5" ]
+    "normal$0" "vector3_array" [ "-0.4051857 -0.022291748 0.91396254", "0.2564727 -0.020663653 0.9663305", "0.1255163 -0.018882962 0.9919118", "-0.08721911 -0.018305233 0.996021", "0.0009948811 -0.016912978 0.9998565", "0.0009948811 -0.016912978 0.9998565" ]
+    "normal$0Indices" "int_array" [ "0", "1", "2", "3", "4", "5" ]
+    "tangent$0" "vector4_array" [ "-0.9142343 0.009321913 -0.40507877 -1", "-0.9665507 -0.004229655 0.2564407 -1", "-0.9920915 -0.0027243826 0.12548716 -1", "-0.9961889 0.0023342283 -0.08719092 -1", "-0.99999833 -0.0015429816 0.00096892216 -1", "-0.99999833 -0.0015429816 0.00096892216 -1" ]
+    "tangent$0Indices" "int_array" [ "0", "1", "2", "3", "4", "5" ]
+    "color$0" "vector4_array" [ "0.011764706 0.011764706 0.015686275 1", "0.011764706 0.011764706 0.015686275 1", "0.34509805 0.34117648 0.34117648 1", "0.34509805 0.34117648 0.34117648 1", "0.75686276 0.75686276 0.7607843 1", "0.75686276 0.75686276 0.7607843 1" ]
+    "color$0Indices" "int_array" [ "0", "1", "2", "3", "4", "5" ]
+}
