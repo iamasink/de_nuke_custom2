@@ -1,0 +1,1085 @@
+
+
+
+---------------------------------------------------------------------
+
+RadGen started at: 01/01/0001 00:00:00
+
+
+RadGen version: v1.0.0
+
+---- Arguments ----
+
+---- Game Configuration Values ----
+addon name: de_nuke_custom2
+content Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\
+game Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
+content csgo Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo\
+game csgo Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\
+bin Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\bin\
+overviews image Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\panorama\images\overheadmaps\
+overviews txt Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_addons\de_nuke_custom2\resource\overviews\
+overviews settings txt Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\radgen\
+overviews vmat Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\radgen\
+overviews vtex_c Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_addons\de_nuke_custom2\panorama\images\overheadmaps\
+dz tablet Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\models\weapons\v_models\tablet\
+dz spawn select Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\panorama\images\survival\spawnselect\
+RadGen extras Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\_radgen_extras\
+vmap Filepath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\maps\de_nuke_custom.vmap
+vmap Name: de_nuke_custom
+vmap Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\maps\
+content addon Filepath Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\
+game addon Filepath Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_addons\de_nuke_custom2\
+
+
+---- Generating Overview ----
+
+
+
+Reading VMAP...
+Decoding VMAP to keyvalues2...
+VMAP decoded successfully
+
+Parsing VMAP contents...
+
+VMAP parsed successfully
+
+Linking child element ids...
+If you are using meshes that have lots of faces (therefore vertices), this might take a while...
+Finished linking child element ids...
+No instances to parse in vmap 'de_nuke_custom'
+
+Fixing up main VMAP...
+
+Correcting overlay origins and angles...
+Finished correcting overlay origins and angles
+Finished fixing up main vmap
+Parsing prefabs...
+
+
+1 prefab found in de_nuke_custom...
+
+Decoding prefab VMAP to keyvalues2...: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\maps\de_nuke_custom_prefab.vmap
+Prefab VMAP decoded successfully: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\maps\de_nuke_custom_prefab.vmap
+	- No instances to parse in prefab vmap 'de_nuke_custom_prefab.vmap' at origin '0 0 0'
+	- No prefabs to parse in prefab vmap 'de_nuke_custom_prefab.vmap' at origin '0 0 0'
+
+1 prefab successfully parsed in de_nuke_custom
+
+Finished parsing prefabs
+
+Linking child element ids...
+If you are using meshes that have lots of faces (therefore vertices), this might take a while...
+Finished linking child element ids...
+
+
+Getting required data from the main vmap and prefabs...
+Finished getting required data from the main vmap and prefabs
+
+Sorting the data...
+
+The higher number of vertices each mesh has, the longer this will take exponentially...
+It is also limited by the 'Max Number Of Vertices Per Mesh Limit' and 'Max Number Of Vertices Per Mesh Face Limit' keyvalues in your radgen_config entity.
+You can raise or lower these values, but use with caution. Increasing them may drastically decrease speed, and decreasing them could speed radgen up, but could also cause some mesh faces to no longer be shown.
+
+The default value for 'Max Number Of Vertices Per Mesh Limit' is 2048.
+Currently, it is set to 2048.
+Meshes with more than 2048 vertices will be skipped.
+
+The default value for 'Max Number Of Vertices Per Mesh Face Limit' is 8.
+Currently, it is set to 8.
+Mesh faces with more than 8 vertices will be skipped.
+
+- Attempting to remove extra faces found in mesh 'd86bd390-f219-498f-a82e-b24effda61f6' with origin at '-2228 -1062 -364'.
+Face '1' with average vertices of '-2568 -1062 -364 has been removed'.
+Face '4' with average vertices of '-2228 -836 -364 has been removed'.
+Face '11' with average vertices of '-2228 -1062 -364 has been removed'.
+Face '25' with average vertices of '-2228 -1288 -364 has been removed'.
+Face '28' with average vertices of '-1888 -1062 -364 has been removed'.
+Found too many faces that could potentially be holes in mesh 'd86bd390-f219-498f-a82e-b24effda61f6' with origin at '-2228 -1062 -364' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'd6b02f35-53cb-47ea-b1cb-4a7d38ec6d98' with origin at '2816 -484 -296'.
+Face '1' with average vertices of '2488 -484 -296 has been removed'.
+Face '4' with average vertices of '2816 -264 -296 has been removed'.
+Face '11' with average vertices of '2816 -484 -296 has been removed'.
+Face '25' with average vertices of '2816 -704 -296 has been removed'.
+Face '28' with average vertices of '3144 -484 -296 has been removed'.
+Found too many faces that could potentially be holes in mesh 'd6b02f35-53cb-47ea-b1cb-4a7d38ec6d98' with origin at '2816 -484 -296' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '9d23dc1d-8991-4d66-8a2a-9a9b4515a72f' with origin at '630.5 -601 -245'.
+Face '1' with average vertices of '339 -601 -245 has been removed'.
+Face '4' with average vertices of '630.5 -289 -245 has been removed'.
+Face '11' with average vertices of '630.5 -601 -245 has been removed'.
+Face '25' with average vertices of '630.5 -913 -245 has been removed'.
+Face '28' with average vertices of '922 -601 -245 has been removed'.
+Found too many faces that could potentially be holes in mesh '9d23dc1d-8991-4d66-8a2a-9a9b4515a72f' with origin at '630.5 -601 -245' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'b49b2bc5-a458-4b17-9b81-b7447baa1d3b' with origin at '641.1851 -689.1543 -207'.
+Face '5' with average vertices of '633.074 -676.9915 -207 has been removed'.
+Face '70' with average vertices of '648.11774 -676.1643 -215 has been removed'.
+Face '154' with average vertices of '655.20337 -693.5103 -215 has been removed'.
+Face '163' with average vertices of '654.7457 -693.80273 -201.66667 has been removed'.
+Face '195' with average vertices of '653.27924 -697.3058 -207 has been removed'.
+Face '274' with average vertices of '645.5095 -703.25116 -199 has been removed'.
+Face '408' with average vertices of '626.8916 -686.249 -207 has been removed'.
+Face '486' with average vertices of '654.3794 -694.6749 -191 has been removed'.
+Found more faces in mesh 'b49b2bc5-a458-4b17-9b81-b7447baa1d3b' with origin at '641.1851 -689.1543 -207' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Found less faces in mesh '601615dd-5570-4c5a-8892-170a08b73bb5' with origin at '767.9364 -689.1543 -199' than expected.
+- Attempting to remove extra faces found in mesh '3e2ab9d3-e08d-4dfc-bfd0-02e328f32168' with origin at '640 -1136 -732'.
+Face '1' with average vertices of '448 -1136 -732 has been removed'.
+Face '4' with average vertices of '640 -960 -732 has been removed'.
+Face '11' with average vertices of '640 -1136 -732 has been removed'.
+Face '25' with average vertices of '640 -1312 -732 has been removed'.
+Face '28' with average vertices of '832 -1136 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh '3e2ab9d3-e08d-4dfc-bfd0-02e328f32168' with origin at '640 -1136 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'ec378e23-24e9-4524-bd4a-1af77c6076cb' with origin at '512 -896 -732'.
+Face '1' with average vertices of '320 -896 -732 has been removed'.
+Face '4' with average vertices of '512 -832 -732 has been removed'.
+Face '11' with average vertices of '512 -896 -732 has been removed'.
+Face '25' with average vertices of '512 -960 -732 has been removed'.
+Face '28' with average vertices of '704 -896 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh 'ec378e23-24e9-4524-bd4a-1af77c6076cb' with origin at '512 -896 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '41dcc72c-419e-4719-bf38-e6fd4d9bb4f7' with origin at '384 -1024 -732'.
+Face '1' with average vertices of '384 -960 -732 has been removed'.
+Face '3' with average vertices of '384 -1024 -696 has been removed'.
+Face '10' with average vertices of '384 -1024 -732 has been removed'.
+Face '25' with average vertices of '448 -1024 -732 has been removed'.
+Face '56' with average vertices of '384 -1024 -768 has been removed'.
+Found too many faces that could potentially be holes in mesh '41dcc72c-419e-4719-bf38-e6fd4d9bb4f7' with origin at '384 -1024 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '95c6d6d4-b471-4539-9615-0a9f94d2f3a5' with origin at '416 -768 -732'.
+Face '1' with average vertices of '320 -768 -732 has been removed'.
+Face '4' with average vertices of '416 -704 -732 has been removed'.
+Face '11' with average vertices of '416 -768 -732 has been removed'.
+Face '25' with average vertices of '416 -832 -732 has been removed'.
+Face '28' with average vertices of '512 -768 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh '95c6d6d4-b471-4539-9615-0a9f94d2f3a5' with origin at '416 -768 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '248214a5-0768-41cb-b1fa-2bb6dcfe534c' with origin at '784 -896 -732'.
+Face '1' with average vertices of '704 -896 -732 has been removed'.
+Face '4' with average vertices of '784 -832 -732 has been removed'.
+Face '11' with average vertices of '784 -896 -732 has been removed'.
+Face '25' with average vertices of '784 -960 -732 has been removed'.
+Face '28' with average vertices of '864 -896 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh '248214a5-0768-41cb-b1fa-2bb6dcfe534c' with origin at '784 -896 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'b1e0d555-f638-4624-8531-cdd12816f31d' with origin at '640 -1176 -560'.
+Face '1' with average vertices of '631.26526 -1189.0387 -560 has been removed'.
+Face '14' with average vertices of '631.1527 -1187.9209 -556 has been removed'.
+Face '33' with average vertices of '632.3744 -1188.7017 -556 has been removed'.
+Face '109' with average vertices of '631.2481 -1162.9752 -560 has been removed'.
+Successfully removed extra faces found in mesh 'b1e0d555-f638-4624-8531-cdd12816f31d' with origin at '640 -1176 -560'.
+- Attempting to remove extra faces found in mesh '7d67e7fa-620a-45fd-af6e-cc44862f8037' with origin at '1291.7357 -2152 -589.37665'.
+Face '1' with average vertices of '1199.4714 -2152 -589.37665 has been removed'.
+Face '4' with average vertices of '1291.7357 -2088 -589.37665 has been removed'.
+Face '11' with average vertices of '1291.7357 -2152 -589.37665 has been removed'.
+Face '25' with average vertices of '1291.7357 -2216 -589.37665 has been removed'.
+Face '28' with average vertices of '1384 -2152 -589.37665 has been removed'.
+Found too many faces that could potentially be holes in mesh '7d67e7fa-620a-45fd-af6e-cc44862f8037' with origin at '1291.7357 -2152 -589.37665' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+
+
+- Attempting to remove extra faces found in mesh '561ff2d7-b56f-453b-a464-ad986df8bad2' with origin at '1670 -213.5 -165.49051'.
+Face '1' with average vertices of '1670 -213.5 84 has been removed'.
+Face '4' with average vertices of '1670 -228 -165.49051 has been removed'.
+Face '11' with average vertices of '1670 -213.5 -165.49051 has been removed'.
+Face '28' with average vertices of '1670 -199 -165.49051 has been removed'.
+Face '52' with average vertices of '1664 -213.5 -165.49051 has been removed'.
+Found too many faces that could potentially be holes in mesh '561ff2d7-b56f-453b-a464-ad986df8bad2' with origin at '1670 -213.5 -165.49051' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '78410111-cdb2-4519-bb49-a01767afbf7d' with origin at '-34.961563 156.8711 557.84'.
+Face '1' with average vertices of '-34.96174 156.8718 756.84 has been removed'.
+Face '4' with average vertices of '-33.91558 143.93161 557.84 has been removed'.
+Face '11' with average vertices of '-34.961544 156.87173 557.84 has been removed'.
+Face '28' with average vertices of '-36.00769 169.8125 557.84 has been removed'.
+Face '52' with average vertices of '-36.953842 156.68384 557.84 has been removed'.
+Found too many faces that could potentially be holes in mesh '78410111-cdb2-4519-bb49-a01767afbf7d' with origin at '-34.961563 156.8711 557.84' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '96834595-80cc-43f3-911c-2e8b8aeea641' with origin at '-276 -806 -916.6025'.
+Face '1' with average vertices of '-276 -806 -777.105 has been removed'.
+Face '4' with average vertices of '-276 -820 -916.6025 has been removed'.
+Face '11' with average vertices of '-276 -806 -916.6025 has been removed'.
+Face '28' with average vertices of '-276 -792 -916.6025 has been removed'.
+Face '52' with average vertices of '-280 -806 -916.6025 has been removed'.
+Found too many faces that could potentially be holes in mesh '96834595-80cc-43f3-911c-2e8b8aeea641' with origin at '-276 -806 -916.6025' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '5281345c-4f69-4caf-acac-5b7834f74d81' with origin at '-252 -1076 -916.5'.
+Face '1' with average vertices of '-252 -1076 -777 has been removed'.
+Face '4' with average vertices of '-238 -1076 -916.5 has been removed'.
+Face '11' with average vertices of '-252 -1076 -916.5 has been removed'.
+Face '28' with average vertices of '-266 -1076 -916.5 has been removed'.
+Face '52' with average vertices of '-252 -1080 -916.5 has been removed'.
+Found too many faces that could potentially be holes in mesh '5281345c-4f69-4caf-acac-5b7834f74d81' with origin at '-252 -1076 -916.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'e351dcc3-200f-4b2b-bc59-23cd74fcd552' with origin at '40 -840 -916.5'.
+Face '1' with average vertices of '40 -840 -777 has been removed'.
+Face '4' with average vertices of '54 -840 -916.5 has been removed'.
+Face '11' with average vertices of '40 -840 -916.5 has been removed'.
+Face '28' with average vertices of '26 -840 -916.5 has been removed'.
+Face '52' with average vertices of '40 -844 -916.5 has been removed'.
+Found too many faces that could potentially be holes in mesh 'e351dcc3-200f-4b2b-bc59-23cd74fcd552' with origin at '40 -840 -916.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '24296eb9-cad7-42ec-8d27-c398476aec5e' with origin at '40 -950 -916.5'.
+Face '1' with average vertices of '40 -950 -777 has been removed'.
+Face '4' with average vertices of '54 -950 -916.5 has been removed'.
+Face '11' with average vertices of '40 -950 -916.5 has been removed'.
+Face '28' with average vertices of '26 -950 -916.5 has been removed'.
+Face '52' with average vertices of '40 -954 -916.5 has been removed'.
+Found too many faces that could potentially be holes in mesh '24296eb9-cad7-42ec-8d27-c398476aec5e' with origin at '40 -950 -916.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'b9ad0da6-8bd7-4f1c-b3e5-211a7297c22b' with origin at '292 -1076 -916.5'.
+Face '1' with average vertices of '292 -1076 -777 has been removed'.
+Face '4' with average vertices of '306 -1076 -916.5 has been removed'.
+Face '11' with average vertices of '292 -1076 -916.5 has been removed'.
+Face '28' with average vertices of '278 -1076 -916.5 has been removed'.
+Face '52' with average vertices of '292 -1080 -916.5 has been removed'.
+Found too many faces that could potentially be holes in mesh 'b9ad0da6-8bd7-4f1c-b3e5-211a7297c22b' with origin at '292 -1076 -916.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '562f48e2-f610-4918-a4ee-354170bd3197' with origin at '286 -714 -916.5'.
+Face '1' with average vertices of '286 -714 -777 has been removed'.
+Face '4' with average vertices of '300 -714 -916.5 has been removed'.
+Face '11' with average vertices of '286 -714 -916.5 has been removed'.
+Face '28' with average vertices of '272 -714 -916.5 has been removed'.
+Face '52' with average vertices of '286 -718 -916.5 has been removed'.
+Found too many faces that could potentially be holes in mesh '562f48e2-f610-4918-a4ee-354170bd3197' with origin at '286 -714 -916.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'f629285b-b6d2-434f-bb60-a455586fb4e3' with origin at '736 -840 -916.5'.
+Face '1' with average vertices of '736 -840 -777 has been removed'.
+Face '4' with average vertices of '750 -840 -916.5 has been removed'.
+Face '11' with average vertices of '736 -840 -916.5 has been removed'.
+Face '28' with average vertices of '722 -840 -916.5 has been removed'.
+Face '52' with average vertices of '736 -844 -916.5 has been removed'.
+Found too many faces that could potentially be holes in mesh 'f629285b-b6d2-434f-bb60-a455586fb4e3' with origin at '736 -840 -916.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'dee660c7-4721-49e4-9975-a22ca7f891fb' with origin at '831 -1465 -512'.
+Face '1' with average vertices of '831 -1465 -416 has been removed'.
+Face '4' with average vertices of '845 -1465 -512 has been removed'.
+Face '11' with average vertices of '831 -1465 -512 has been removed'.
+Face '28' with average vertices of '817 -1465 -512 has been removed'.
+Face '52' with average vertices of '831 -1468 -512 has been removed'.
+Found too many faces that could potentially be holes in mesh 'dee660c7-4721-49e4-9975-a22ca7f891fb' with origin at '831 -1465 -512' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '20c29904-c28f-492f-acf1-10b7a1b59af5' with origin at '965 -164 -73'.
+Face '1' with average vertices of '965 -164 73 has been removed'.
+Face '4' with average vertices of '965 -178 -73 has been removed'.
+Face '11' with average vertices of '965 -164 -73 has been removed'.
+Face '28' with average vertices of '965 -150 -73 has been removed'.
+Face '52' with average vertices of '957 -164 -73 has been removed'.
+Found too many faces that could potentially be holes in mesh '20c29904-c28f-492f-acf1-10b7a1b59af5' with origin at '965 -164 -73' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'f09a3b26-25bc-4e82-bfec-3822037aedfb' with origin at '376 -860 -181.5'.
+Face '1' with average vertices of '376 -860 -127 has been removed'.
+Face '4' with average vertices of '376 -863 -181.5 has been removed'.
+Face '11' with average vertices of '376 -860 -181.5 has been removed'.
+Face '28' with average vertices of '376 -857 -181.5 has been removed'.
+Face '52' with average vertices of '363 -860 -181.5 has been removed'.
+Found too many faces that could potentially be holes in mesh 'f09a3b26-25bc-4e82-bfec-3822037aedfb' with origin at '376 -860 -181.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '302eb494-5598-4ade-8100-27874caf06fb' with origin at '419 -1435 -484.5'.
+Face '1' with average vertices of '419 -1435 -354.5 has been removed'.
+Face '4' with average vertices of '419 -1449 -484.5 has been removed'.
+Face '11' with average vertices of '419 -1435 -484.5 has been removed'.
+Face '28' with average vertices of '419 -1421 -484.5 has been removed'.
+Face '52' with average vertices of '416 -1435 -484.5 has been removed'.
+Found too many faces that could potentially be holes in mesh '302eb494-5598-4ade-8100-27874caf06fb' with origin at '419 -1435 -484.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '69423291-40b6-4325-bf55-7dc80c8ba56e' with origin at '583 -687 -287'.
+Face '1' with average vertices of '583 -687 -223 has been removed'.
+Face '4' with average vertices of '583 -701 -287 has been removed'.
+Face '11' with average vertices of '583 -687 -287 has been removed'.
+Face '28' with average vertices of '583 -673 -287 has been removed'.
+Face '52' with average vertices of '571 -687 -287 has been removed'.
+Found too many faces that could potentially be holes in mesh '69423291-40b6-4325-bf55-7dc80c8ba56e' with origin at '583 -687 -287' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '5e4d9dc5-8ac2-441b-af74-1d2690cd441d' with origin at '233.5 -848 -343.5'.
+Face '1' with average vertices of '233 -848 -343.5 has been removed'.
+Face '4' with average vertices of '233.5 -836 -343.5 has been removed'.
+Face '11' with average vertices of '233.5 -848 -343.5 has been removed'.
+Face '25' with average vertices of '233.5 -860 -343.5 has been removed'.
+Face '28' with average vertices of '234 -848 -343.5 has been removed'.
+Found too many faces that could potentially be holes in mesh '5e4d9dc5-8ac2-441b-af74-1d2690cd441d' with origin at '233.5 -848 -343.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'af1810ea-1a29-4154-9a3c-fe81da69589e' with origin at '233.5 -848 -170'.
+Face '1' with average vertices of '233 -848 -170 has been removed'.
+Face '4' with average vertices of '233.5 -836 -170 has been removed'.
+Face '11' with average vertices of '233.5 -848 -170 has been removed'.
+Face '25' with average vertices of '233.5 -860 -170 has been removed'.
+Face '28' with average vertices of '234 -848 -170 has been removed'.
+Found too many faces that could potentially be holes in mesh 'af1810ea-1a29-4154-9a3c-fe81da69589e' with origin at '233.5 -848 -170' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'f72a7b8f-6da9-4b4b-a0e7-f4270c2b0741' with origin at '-1197 -1463 -54.3023'.
+Face '1' with average vertices of '-1176.3499 -1463 13.395401 has been removed'.
+Face '5' with average vertices of '-1195.34 -1484 -49.613678 has been removed'.
+Face '13' with average vertices of '-1195.8142 -1460 -37.93317 has been removed'.
+Face '17' with average vertices of '-1195.8142 -1466 -57.27537 has been removed'.
+Face '20' with average vertices of '-1199.3428 -1460 -50.953285 has been removed'.
+Face '41' with average vertices of '-1164 -1463 -54.3023 has been removed'.
+Face '60' with average vertices of '-1195.8142 -1460 -50.953285 has been removed'.
+Face '100' with average vertices of '-1195.8142 -1460 -57.27537 has been removed'.
+Face '205' with average vertices of '-1230 -1463 -76.429596 has been removed'.
+Found more faces in mesh 'f72a7b8f-6da9-4b4b-a0e7-f4270c2b0741' with origin at '-1197 -1463 -54.3023' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '1686aaab-de1f-4990-b2cb-849ff17d695b' with origin at '-1197 -1391 -51'.
+Face '1' with average vertices of '-1173.265 -1391 20 has been removed'.
+Face '5' with average vertices of '-1194.106 -1410 -46.971592 has been removed'.
+Face '13' with average vertices of '-1194.9329 -1388.2858 -35.102276 has been removed'.
+Face '17' with average vertices of '-1194.9329 -1393.7142 -55.38799 has been removed'.
+Face '20' with average vertices of '-1197.58 -1388.2858 -48.122566 has been removed'.
+Face '41' with average vertices of '-1164 -1391 -51 has been removed'.
+Face '60' with average vertices of '-1194.9329 -1388.2858 -48.122566 has been removed'.
+Face '100' with average vertices of '-1194.9329 -1388.2858 -55.38799 has been removed'.
+Face '205' with average vertices of '-1230 -1391 -76.42898 has been removed'.
+Found more faces in mesh '1686aaab-de1f-4990-b2cb-849ff17d695b' with origin at '-1197 -1391 -51' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '46a71fc3-fb52-4340-a1b1-d4f23e4b349a' with origin at '-1880 -2234 -145'.
+Face '1' with average vertices of '-1880 -2234 108 has been removed'.
+Face '4' with average vertices of '-1880 -2249 -145 has been removed'.
+Face '11' with average vertices of '-1880 -2234 -145 has been removed'.
+Face '28' with average vertices of '-1880 -2219 -145 has been removed'.
+Face '52' with average vertices of '-1882 -2234 -145 has been removed'.
+Found too many faces that could potentially be holes in mesh '46a71fc3-fb52-4340-a1b1-d4f23e4b349a' with origin at '-1880 -2234 -145' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'bf55465b-79db-418c-9b68-e5b212296746' with origin at '-1728 -1970 -281.635'.
+Face '1' with average vertices of '-1726 -1970 -281.635 has been removed'.
+Face '3' with average vertices of '-1728 -1970 -154 has been removed'.
+Face '11' with average vertices of '-1728 -1970 -281.635 has been removed'.
+Face '28' with average vertices of '-1728 -1970 -409.27 has been removed'.
+Face '50' with average vertices of '-1730 -1970 -281.635 has been removed'.
+Found too many faces that could potentially be holes in mesh 'bf55465b-79db-418c-9b68-e5b212296746' with origin at '-1728 -1970 -281.635' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'fdebc613-f5b9-4102-8790-e94751485b48' with origin at '576.5 -1175 -627.5'.
+Face '1' with average vertices of '576 -1175 -627.5 has been removed'.
+Face '4' with average vertices of '576.5 -1163 -627.5 has been removed'.
+Face '11' with average vertices of '576.5 -1175 -627.5 has been removed'.
+Face '25' with average vertices of '576.5 -1187 -627.5 has been removed'.
+Face '28' with average vertices of '577 -1175 -627.5 has been removed'.
+Found too many faces that could potentially be holes in mesh 'fdebc613-f5b9-4102-8790-e94751485b48' with origin at '576.5 -1175 -627.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '8c26be1c-1038-4885-a5eb-87035d8bdea8' with origin at '-228 -1194.4902 -203.1582'.
+Face '1' with average vertices of '-240 -1194.4902 -203.1586 has been removed'.
+Face '4' with average vertices of '-228 -1194 -203.1586 has been removed'.
+Face '11' with average vertices of '-228 -1194.4902 -203.15874 has been removed'.
+Face '25' with average vertices of '-228 -1194.9805 -203.1586 has been removed'.
+Face '28' with average vertices of '-216 -1194.4902 -203.1586 has been removed'.
+Found too many faces that could potentially be holes in mesh '8c26be1c-1038-4885-a5eb-87035d8bdea8' with origin at '-228 -1194.4902 -203.1582' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'f99281a6-c044-494e-8627-0a4fc174957d' with origin at '-522.5 -1148 -276.5'.
+Face '1' with average vertices of '-522.5 -1148 -153 has been removed'.
+Face '3' with average vertices of '-522.5 -1160 -276.5 has been removed'.
+Face '11' with average vertices of '-522.5 -1148 -276.5 has been removed'.
+Face '28' with average vertices of '-522.5 -1136 -276.5 has been removed'.
+Face '50' with average vertices of '-522.5 -1148 -400 has been removed'.
+Found too many faces that could potentially be holes in mesh 'f99281a6-c044-494e-8627-0a4fc174957d' with origin at '-522.5 -1148 -276.5' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '3ab054ba-d1ce-4650-8bc3-9b5d5dc5b11f' with origin at '1127 -444 -259'.
+Face '1' with average vertices of '1124 -444 -259 has been removed'.
+Face '4' with average vertices of '1127 -432 -259 has been removed'.
+Face '11' with average vertices of '1127 -444 -259 has been removed'.
+Face '25' with average vertices of '1127 -456 -259 has been removed'.
+Face '28' with average vertices of '1130 -444 -259 has been removed'.
+Found too many faces that could potentially be holes in mesh '3ab054ba-d1ce-4650-8bc3-9b5d5dc5b11f' with origin at '1127 -444 -259' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '76bfee44-dc09-4319-afef-0ff683e59b49' with origin at '-792 -2037 -272.7405'.
+Face '1' with average vertices of '-792 -2037 -154 has been removed'.
+Face '4' with average vertices of '-792 -2052 -272.7405 has been removed'.
+Face '11' with average vertices of '-792 -2037 -272.7405 has been removed'.
+Face '28' with average vertices of '-792 -2022 -272.7405 has been removed'.
+Face '52' with average vertices of '-794 -2037 -272.7405 has been removed'.
+Found too many faces that could potentially be holes in mesh '76bfee44-dc09-4319-afef-0ff683e59b49' with origin at '-792 -2037 -272.7405' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '20c2725b-ec54-4cb6-96e6-778f130e1a2b' with origin at '-871 -1704 -90'.
+Face '1' with average vertices of '-871 -1704 -24 has been removed'.
+Face '4' with average vertices of '-856 -1704 -90 has been removed'.
+Face '11' with average vertices of '-871 -1704 -90 has been removed'.
+Face '28' with average vertices of '-886 -1704 -90 has been removed'.
+Face '52' with average vertices of '-871 -1706 -90 has been removed'.
+Found too many faces that could potentially be holes in mesh '20c2725b-ec54-4cb6-96e6-778f130e1a2b' with origin at '-871 -1704 -90' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '1a5ca8cd-0b5b-403d-97e5-cb0586a79d26' with origin at '-1697 -801 34'.
+Face '1' with average vertices of '-1694 -801 34 has been removed'.
+Face '3' with average vertices of '-1697 -801 116 has been removed'.
+Face '11' with average vertices of '-1697 -801 34 has been removed'.
+Face '28' with average vertices of '-1697 -801 -48 has been removed'.
+Face '50' with average vertices of '-1700 -801 34 has been removed'.
+Found too many faces that could potentially be holes in mesh '1a5ca8cd-0b5b-403d-97e5-cb0586a79d26' with origin at '-1697 -801 34' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '827ef4a7-53e6-4be5-b2b4-d13e45c9d8bb' with origin at '647 -962 186'.
+Face '1' with average vertices of '647 -936 186 has been removed'.
+Face '3' with average vertices of '647 -962 272 has been removed'.
+Face '10' with average vertices of '647 -962 186 has been removed'.
+Face '25' with average vertices of '700 -962 186 has been removed'.
+Face '56' with average vertices of '647 -962 100 has been removed'.
+Found too many faces that could potentially be holes in mesh '827ef4a7-53e6-4be5-b2b4-d13e45c9d8bb' with origin at '647 -962 186' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'd4f7c6fe-ce3a-40ec-b296-9e53ec4cb652' with origin at '645 -720 325'.
+Face '1' with average vertices of '645 -697.0756 344 has been removed'.
+Face '5' with average vertices of '600 -760.43024 323.38574 has been removed'.
+Face '13' with average vertices of '638.5714 -748.8787 323.84695 has been removed'.
+Face '17' with average vertices of '638.5714 -748.8787 319.9796 has been removed'.
+Face '25' with average vertices of '651.4286 -813.1861 323.84695 has been removed'.
+Face '40' with average vertices of '645 -472 325 has been removed'.
+Face '54' with average vertices of '638.5714 -748.8787 325.40817 has been removed'.
+Face '62' with average vertices of '651.4286 -748.8787 319.9796 has been removed'.
+Face '249' with average vertices of '645 -720 306 has been removed'.
+Found more faces in mesh 'd4f7c6fe-ce3a-40ec-b296-9e53ec4cb652' with origin at '645 -720 325' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'f6f46523-67a8-4377-b70c-6ae12999162b' with origin at '645 -960 288'.
+Face '1' with average vertices of '600 -957.4285 288 has been removed'.
+Face '4' with average vertices of '645 -976.85724 288 has been removed'.
+Face '11' with average vertices of '645 -958.28564 288 has been removed'.
+Face '28' with average vertices of '645 -938 288 has been removed'.
+Face '52' with average vertices of '645 -960 270 has been removed'.
+Found too many faces that could potentially be holes in mesh 'f6f46523-67a8-4377-b70c-6ae12999162b' with origin at '645 -960 288' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'd329ea46-256c-4137-917b-b1bb458ebaf6' with origin at '645 -435 387'.
+Face '1' with average vertices of '645 -431.39502 468 has been removed'.
+Face '5' with average vertices of '600 -441.358 380.1178 has been removed'.
+Face '13' with average vertices of '638.5714 -439.54144 382.08414 has been removed'.
+Face '17' with average vertices of '638.5714 -439.54144 365.59683 has been removed'.
+Face '25' with average vertices of '651.4286 -449.6543 382.08414 has been removed'.
+Face '41' with average vertices of '645 -396 387 has been removed'.
+Face '59' with average vertices of '651.4286 -439.54144 382.08414 has been removed'.
+Face '100' with average vertices of '651.4286 -439.54144 365.59683 has been removed'.
+Face '249' with average vertices of '645 -435 306 has been removed'.
+Found more faces in mesh 'd329ea46-256c-4137-917b-b1bb458ebaf6' with origin at '645 -435 387' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'dccad95b-27c6-4b74-8297-117643832b77' with origin at '1211 212 366.07227'.
+Face '1' with average vertices of '1211 196 366.07227 has been removed'.
+Face '4' with average vertices of '1211 212 444 has been removed'.
+Face '11' with average vertices of '1211 212 366.07227 has been removed'.
+Face '28' with average vertices of '1211 212 288.14453 has been removed'.
+Face '52' with average vertices of '1216 212 366.07227 has been removed'.
+Found too many faces that could potentially be holes in mesh 'dccad95b-27c6-4b74-8297-117643832b77' with origin at '1211 212 366.07227' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'fd1e2800-a4a3-4551-82e0-ba22b281a62b' with origin at '-1346.5 -533 70.00002'.
+Face '1' with average vertices of '-1346.5 -533 82.500015 has been removed'.
+Face '3' with average vertices of '-1346.5 -512 70.00002 has been removed'.
+Face '10' with average vertices of '-1346.5 -533 70.00002 has been removed'.
+Face '28' with average vertices of '-1346.5 -554 70.00002 has been removed'.
+Face '51' with average vertices of '-1274.5 -533 70.00003 has been removed'.
+Found too many faces that could potentially be holes in mesh 'fd1e2800-a4a3-4551-82e0-ba22b281a62b' with origin at '-1346.5 -533 70.00002' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'e2279f94-c437-4cb9-9ba8-77a30470b672' with origin at '-2334 -1352 6.000005'.
+Face '1' with average vertices of '-2334 -1352 172 has been removed'.
+Face '3' with average vertices of '-2354 -1352 6 has been removed'.
+Face '10' with average vertices of '-2334 -1352 6 has been removed'.
+Face '28' with average vertices of '-2314 -1352 6 has been removed'.
+Face '51' with average vertices of '-2334 -1298 6 has been removed'.
+Found too many faces that could potentially be holes in mesh 'e2279f94-c437-4cb9-9ba8-77a30470b672' with origin at '-2334 -1352 6.000005' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'fff8faca-57aa-4b02-88e0-b564d000bd06' with origin at '-2912 -1456 60.00002'.
+Face '1' with average vertices of '-2912 -1456 272.00003 has been removed'.
+Face '3' with average vertices of '-2960 -1456 60.000015 has been removed'.
+Face '10' with average vertices of '-2912 -1456 60.000015 has been removed'.
+Face '28' with average vertices of '-2864 -1456 60.000015 has been removed'.
+Face '51' with average vertices of '-2912 -1440 60.000015 has been removed'.
+Found too many faces that could potentially be holes in mesh 'fff8faca-57aa-4b02-88e0-b564d000bd06' with origin at '-2912 -1456 60.00002' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'bfaf116e-2d67-4dec-95b4-0e5f2b5e3485' with origin at '-2321 -1208 -291'.
+Face '1' with average vertices of '-2321 -1219 -176 has been removed'.
+Face '3' with average vertices of '-2328 -1219 -291 has been removed'.
+Face '10' with average vertices of '-2321 -1219 -291 has been removed'.
+Face '28' with average vertices of '-2314 -1219 -291 has been removed'.
+Face '51' with average vertices of '-2321 -1154 -291 has been removed'.
+Found too many faces that could potentially be holes in mesh 'bfaf116e-2d67-4dec-95b4-0e5f2b5e3485' with origin at '-2321 -1208 -291' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'ed0e3836-2afc-46d2-adf5-4e2cf17780ff' with origin at '-104 -1256 -700'.
+Face '1' with average vertices of '-104 -1256 -632 has been removed'.
+Face '3' with average vertices of '-120 -1256 -700 has been removed'.
+Face '10' with average vertices of '-104 -1256 -700 has been removed'.
+Face '28' with average vertices of '-88 -1256 -700 has been removed'.
+Face '51' with average vertices of '-104 -1252 -700 has been removed'.
+Found too many faces that could potentially be holes in mesh 'ed0e3836-2afc-46d2-adf5-4e2cf17780ff' with origin at '-104 -1256 -700' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '0b1314d2-bef1-4afa-b9ad-eee0c99ebf28' with origin at '718.0726 -109.08682 777.9987'.
+Face '1' with average vertices of '787.42896 -424.81284 68 has been removed'.
+Face '4' with average vertices of '787.985 -402.18234 336 has been removed'.
+Face '11' with average vertices of '787.4278 -424.81305 336 has been removed'.
+Face '33' with average vertices of '786.2471 -418.5082 473.5 has been removed'.
+Face '41' with average vertices of '790.7101 -412.71158 473.5 has been removed'.
+Face '53' with average vertices of '780.8828 -412.98962 473.5 has been removed'.
+Face '104' with average vertices of '786.87115 -447.44348 336 has been removed'.
+Face '154' with average vertices of '785.0673 -418.50833 473.5 has been removed'.
+Face '204' with average vertices of '765.41296 -425.3696 336 has been removed'.
+Face '421' with average vertices of '785.62317 -393.7763 698 has been removed'.
+Face '443' with average vertices of '784.27936 -416.40656 698 has been removed'.
+Face '457' with average vertices of '785.8532 -416.40656 698 has been removed'.
+Face '495' with average vertices of '778.37134 -393.30493 781.5 has been removed'.
+Face '511' with average vertices of '779.55194 -393.30542 781.5 has been removed'.
+Face '529' with average vertices of '783.7362 -398.82327 781.5 has been removed'.
+Face '643' with average vertices of '784.2795 -416.4069 698 has been removed'.
+Face '715' with average vertices of '773.9087 -399.1023 781.5 has been removed'.
+Face '1220' with average vertices of '782.7055 -408.0005 792 has been removed'.
+Face '1224' with average vertices of '792.64734 -379.44342 872 has been removed'.
+Face '1248' with average vertices of '775.3529 -380.00064 872 has been removed'.
+Face '1347' with average vertices of '760.3302 -322.4819 964 has been removed'.
+Face '1361' with average vertices of '768.9776 -322.20386 964 has been removed'.
+Face '1405' with average vertices of '764.5146 -328.00024 964 has been removed'.
+Face '1490' with average vertices of '758.05835 -380.55756 872 has been removed'.
+Face '1671' with average vertices of '764.5148 -328.00073 964 has been removed'.
+Face '1756' with average vertices of '774.796 -402.63092 872 has been removed'.
+Face '2345' with average vertices of '756.557 -269.37006 1048 has been removed'.
+Face '2370' with average vertices of '756.0001 -292.0003 1048 has been removed'.
+Face '2385' with average vertices of '756.0001 -292.0003 1048 has been removed'.
+Face '2479' with average vertices of '736.9304 -196.82898 1123 has been removed'.
+Face '2495' with average vertices of '736.93066 -196.82947 1123 has been removed'.
+Face '2537' with average vertices of '741.11487 -202.34734 1123 has been removed'.
+Face '2655' with average vertices of '756.00024 -292.00064 1048 has been removed'.
+Face '2807' with average vertices of '732.4678 -202.62634 1123 has been removed'.
+Face '3484' with average vertices of '744.0002 -232.00049 1144 has been removed'.
+Face '3488' with average vertices of '739.1554 -121.10091 1212 has been removed'.
+Face '3514' with average vertices of '722.57404 -125.10564 1212 has been removed'.
+Face '3543' with average vertices of '715.24365 -90.365364 1230.8572 has been removed'.
+Face '3554' with average vertices of '720.0259 -96.67204 1230.8572 has been removed'.
+Face '3777' with average vertices of '721.1479 -118.210625 1212 has been removed'.
+Face '3988' with average vertices of '723.44336 -154.63092 1212 has been removed'.
+Face '4546' with average vertices of '699.7217 -11.31546 1280 has been removed'.
+Face '4700' with average vertices of '681.18665 2.5658062 1290.6666 has been removed'.
+Face '5239' with average vertices of '687.9953 51.31449 1375.9979 has been removed'.
+Face '5241' with average vertices of '688.5521 70.62898 1411.9979 has been removed'.
+Face '5244' with average vertices of '705.2899 53.87155 1421.9984 has been removed'.
+Face '5250' with average vertices of '705.6231 65.086296 1449.5983 has been removed'.
+Face '5257' with average vertices of '687.99536 53.98132 1421.3319 has been removed'.
+Face '5262' with average vertices of '687.9955 53.98099 1421.3319 has been removed'.
+Face '5267' with average vertices of '687.99524 51.31465 1311.9979 has been removed'.
+Face '5288' with average vertices of '685.76215 60.692417 1430.8552 has been removed'.
+Face '5291' with average vertices of '685.9213 66.2107 1444.5695 has been removed'.
+Face '5295' with average vertices of '685.7629 61.816597 1441.1414 has been removed'.
+Face '5297' with average vertices of '690.8627 66.36973 1444.5695 has been removed'.
+Face '5301' with average vertices of '685.6037 55.155453 1425.141 has been removed'.
+Face '5309' with average vertices of '690.7041 61.975895 1451.427 has been removed'.
+Face '5352' with average vertices of '692.1797 48.625374 1361.9984 has been removed'.
+Face '5368' with average vertices of '670.7009 52.757423 1421.9984 has been removed'.
+Face '5374' with average vertices of '671.03436 63.971596 1449.5983 has been removed'.
+Face '5423' with average vertices of '685.6032 55.17358 1430.8552 has been removed'.
+Face '5428' with average vertices of '685.6037 56.29831 1437.7128 has been removed'.
+Face '5474' with average vertices of '687.9955 53.314247 1361.9984 has been removed'.
+Face '5495' with average vertices of '687.4385 32 1311.9979 has been removed'.
+Face '5740' with average vertices of '687.9953 51.31449 1247.9979 has been removed'.
+Face '6853' with average vertices of '688.5502 70.69339 1467.9977 has been removed'.
+Face '6868' with average vertices of '678.79553 166.34258 1461.1357 has been removed'.
+Face '6905' with average vertices of '665.2531 143.83511 1464.5455 has been removed'.
+Face '6925' with average vertices of '665.6618 142.3982 1464.5573 has been removed'.
+Face '6929' with average vertices of '665.25085 161.37668 1464.4043 has been removed'.
+Face '6956' with average vertices of '667.3997 160.39102 1462.703 has been removed'.
+Face '7077' with average vertices of '668.54974 156.34744 1462.7358 has been removed'.
+Face '7081' with average vertices of '660.1988 170.36902 1462.6207 has been removed'.
+Face '7420' with average vertices of '649.5947 207.6703 1467.7509 has been removed'.
+Face '7483' with average vertices of '631.5665 209.55835 1436.3578 has been removed'.
+Face '7491' with average vertices of '643.6587 228.42168 1438.5376 has been removed'.
+Face '7501' with average vertices of '644.0915 218.14053 1439.2938 has been removed'.
+Face '7522' with average vertices of '644.8416 215.48451 1437.0292 has been removed'.
+Face '7543' with average vertices of '647.1284 216.21532 1437.6812 has been removed'.
+Face '7587' with average vertices of '655.74976 229.65828 1447.8639 has been removed'.
+Face '7592' with average vertices of '643.9102 229.18822 1436.2029 has been removed'.
+Face '7613' with average vertices of '643.6111 212.25217 1439.3411 has been removed'.
+Face '7749' with average vertices of '653.7132 193.0434 1435.0028 has been removed'.
+Found more faces in mesh '0b1314d2-bef1-4afa-b9ad-eee0c99ebf28' with origin at '718.0726 -109.08682 777.9987' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '375ab990-7142-4240-a87e-9d279fea90a9' with origin at '975.97906 423.2373 778.00006'.
+Face '1' with average vertices of '1267.6804 561.9993 68 has been removed'.
+Face '4' with average vertices of '1257.3153 581.01807 334 has been removed'.
+Face '11' with average vertices of '1267.6799 561.9992 334 has been removed'.
+Face '33' with average vertices of '1259.8859 557.4999 484.5 has been removed'.
+Face '41' with average vertices of '1261.7832 564.99915 484.5 has been removed'.
+Face '53' with average vertices of '1252.806 559.509 484.5 has been removed'.
+Face '104' with average vertices of '1278.0449 542.9808 334 has been removed'.
+Face '154' with average vertices of '1259.8856 557.49915 484.5 has been removed'.
+Face '204' with average vertices of '1249.7249 551.01807 334 has been removed'.
+Face '421' with average vertices of '1246.9226 575.01843 712 has been removed'.
+Face '443' with average vertices of '1257.2878 555.99963 712 has been removed'.
+Face '457' with average vertices of '1257.2878 555.99963 712 has been removed'.
+Face '495' with average vertices of '1222.013 539.0977 818 has been removed'.
+Face '511' with average vertices of '1222.0122 539.09717 818 has been removed'.
+Face '529' with average vertices of '1229.0931 537.0882 818 has been removed'.
+Face '643' with average vertices of '1257.2874 555.99927 712 has been removed'.
+Face '715' with average vertices of '1220.1145 531.59717 818 has been removed'.
+Face '1220' with average vertices of '1246.8953 549.9994 824 has been removed'.
+Face '1224' with average vertices of '1221.2817 540.4444 928 has been removed'.
+Face '1248' with average vertices of '1203.3257 529.46326 928 has been removed'.
+Face '1347' with average vertices of '1137.0884 501.93716 1011 has been removed'.
+Face '1361' with average vertices of '1146.0656 507.42712 1011 has been removed'.
+Face '1405' with average vertices of '1144.1686 499.92764 1011 has been removed'.
+Face '1490' with average vertices of '1185.3701 518.4824 928 has been removed'.
+Face '1671' with average vertices of '1144.1678 499.92712 1011 has been removed'.
+Face '1756' with average vertices of '1213.6909 510.4444 928 has been removed'.
+Face '2345' with average vertices of '1085.0378 495.4104 1108 has been removed'.
+Face '2370' with average vertices of '1095.4031 476.39154 1108 has been removed'.
+Face '2385' with average vertices of '1095.4031 476.39154 1108 has been removed'.
+Face '2477' with average vertices of '1035.2671 448.60052 1160 has been removed'.
+Face '2493' with average vertices of '1035.2664 448.60004 1160 has been removed'.
+Face '2535' with average vertices of '1042.3473 446.59103 1160 has been removed'.
+Face '2655' with average vertices of '1095.4026 476.3912 1108 has been removed'.
+Face '2805' with average vertices of '1033.3687 441.10004 1160 has been removed'.
+Face '3484' with average vertices of '1031.049 443.85535 1184 has been removed'.
+Face '3488' with average vertices of '990.62244 428.05817 1228 has been removed'.
+Face '3512' with average vertices of '972.31854 417.64572 1228 has been removed'.
+Face '3614' with average vertices of '920.0752 393.96573 1257 has been removed'.
+Face '3628' with average vertices of '929.05237 399.45572 1257 has been removed'.
+Face '3673' with average vertices of '927.1554 391.95624 1257 has been removed'.
+Face '3758' with average vertices of '954.71075 406.0962 1228 has been removed'.
+Face '3943' with average vertices of '927.15466 391.95572 1257 has been removed'.
+Face '4028' with average vertices of '981.98816 399.76434 1228 has been removed'.
+Face '4625' with average vertices of '864.437 381.90546 1296.0001 has been removed'.
+Face '4650' with average vertices of '872.7154 366.29904 1296 has been removed'.
+Face '4665' with average vertices of '872.7154 366.29904 1296 has been removed'.
+Face '4757' with average vertices of '858.22516 361.397 1347 has been removed'.
+Face '4773' with average vertices of '858.2244 361.39648 1347 has been removed'.
+Face '4815' with average vertices of '864.7836 360.2406 1347 has been removed'.
+Face '4935' with average vertices of '872.71484 366.29868 1296 has been removed'.
+Face '5085' with average vertices of '855.805 354.7496 1347 has been removed'.
+Face '5768' with average vertices of '831.146 342.29874 1320 has been removed'.
+Face '5772' with average vertices of '843.63776 354.74362 1380 has been removed'.
+Face '5796' with average vertices of '825.68164 343.76245 1380 has been removed'.
+Face '5898' with average vertices of '817.7578 345.28525 1413 has been removed'.
+Face '5913' with average vertices of '826.735 350.7752 1413 has been removed'.
+Face '5960' with average vertices of '824.3163 344.12885 1413 has been removed'.
+Face '6050' with average vertices of '807.7261 332.78165 1380 has been removed'.
+Face '6239' with average vertices of '824.31555 344.12833 1413 has been removed'.
+Face '6331' with average vertices of '833.96 328.15604 1380 has been removed'.
+Face '6948' with average vertices of '811.93976 360.8331 1464 has been removed'.
+Face '6973' with average vertices of '820.21814 345.22668 1464 has been removed'.
+Face '6988' with average vertices of '820.21814 345.22668 1464 has been removed'.
+Face '7178' with average vertices of '755.3582 312.44098 1440.0001 has been removed'.
+Face '7232' with average vertices of '716.347 313.7602 1457.3267 has been removed'.
+Face '7353' with average vertices of '728.64105 295.157 1453.209 has been removed'.
+Face '7358' with average vertices of '724.0461 302.7483 1452.995 has been removed'.
+Face '7365' with average vertices of '726.1158 298.84677 1454.2037 has been removed'.
+Face '7397' with average vertices of '733.8352 297.57166 1459.2089 has been removed'.
+Face '7403' with average vertices of '712.17365 297.22903 1459.209 has been removed'.
+Face '7412' with average vertices of '712.65314 297.45193 1454.2039 has been removed'.
+Face '7511' with average vertices of '731.73615 282.00476 1457.6118 has been removed'.
+Face '7683' with average vertices of '729.90625 305.47253 1458.995 has been removed'.
+Face '7708' with average vertices of '715.6471 289.1164 1458.995 has been removed'.
+Face '7717' with average vertices of '716.5821 289.55106 1454.2039 has been removed'.
+Face '8165' with average vertices of '752.5294 311.1258 1488 has been removed'.
+Face '8704' with average vertices of '664.23706 270.08072 1428.0002 has been removed'.
+Face '8707' with average vertices of '679.3988 296.58386 1428.0004 has been removed'.
+Face '8716' with average vertices of '686.78973 280.56497 1428.0002 has been removed'.
+Face '8794' with average vertices of '693.2926 264.13324 1428.0002 has been removed'.
+Face '8879' with average vertices of '683.51685 279.0434 1468.4075 has been removed'.
+Face '9350' with average vertices of '686.3457 280.35858 1416.0002 has been removed'.
+Found more faces in mesh '375ab990-7142-4240-a87e-9d279fea90a9' with origin at '975.97906 423.2373 778.00006' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '3c025fae-1680-42a9-b6ac-46da423aa332' with origin at '266.22366 258.6467 777.9987'.
+Face '1' with average vertices of '-56.932175 250.67642 68 has been removed'.
+Face '4' with average vertices of '-34.821594 245.8215 336 has been removed'.
+Face '12' with average vertices of '-58.989964 253.72243 67.99998 has been removed'.
+Face '31' with average vertices of '-57.34974 259.3685 335.99997 has been removed'.
+Face '45' with average vertices of '-56.363354 259.20282 335.99997 has been removed'.
+Face '48' with average vertices of '-45.67708 245.15114 473.5 has been removed'.
+Face '58' with average vertices of '-58.475624 252.96228 403 has been removed'.
+Face '62' with average vertices of '-64.77475 255.31746 268.99997 has been removed'.
+Face '66' with average vertices of '-64.98926 254.34195 336 has been removed'.
+Face '69' with average vertices of '-59.247284 254.10474 335.99997 has been removed'.
+Face '77' with average vertices of '-65.20381 253.36513 336 has been removed'.
+Face '80' with average vertices of '-59.46183 253.1279 336 has been removed'.
+Face '82' with average vertices of '-59.247196 254.1041 268.99997 has been removed'.
+Face '90' with average vertices of '-64.98922 254.34074 336 has been removed'.
+Face '128' with average vertices of '-50.835625 257.9888 402.99997 has been removed'.
+Face '136' with average vertices of '-57.34939 259.36783 335.99997 has been removed'.
+Face '142' with average vertices of '-60.37297 247.69696 269 has been removed'.
+Face '204' with average vertices of '-86.63292 234.4769 336 has been removed'.
+Face '216' with average vertices of '-63.087162 259.53534 336 has been removed'.
+Face '219' with average vertices of '-82.4154 258.7995 335.99997 has been removed'.
+Face '294' with average vertices of '-69.82007 260.00842 336 has been removed'.
+Face '299' with average vertices of '-55.134388 257.2794 473.5 has been removed'.
+Face '303' with average vertices of '-64.07809 259.77118 336 has been removed'.
+Face '310' with average vertices of '-62.877247 260.58173 335.99997 has been removed'.
+Face '321' with average vertices of '-62.877335 260.58237 402.99997 has been removed'.
+Face '330' with average vertices of '-60.97983 265.84613 335.99997 has been removed'.
+Face '340' with average vertices of '-64.77488 255.3186 402.99997 has been removed'.
+Face '349' with average vertices of '-63.09176 259.6051 269 has been removed'.
+Face '440' with average vertices of '-54.400993 276.63156 67.99997 has been removed'.
+Face '456' with average vertices of '-55.05867 276.744 335.99997 has been removed'.
+Face '522' with average vertices of '-65.20386 253.36404 336 has been removed'.
+Face '600' with average vertices of '-30.318344 271.44662 335.99997 has been removed'.
+Face '741' with average vertices of '-58.33572 259.5333 402.99997 has been removed'.
+Face '758' with average vertices of '-64.07796 259.77057 336 has been removed'.
+Face '849' with average vertices of '-26.119614 246.53955 698 has been removed'.
+Face '865' with average vertices of '-48.079987 252.16782 698 has been removed'.
+Face '872' with average vertices of '-58.989994 253.72421 604 has been removed'.
+Face '956' with average vertices of '-18.06192 256.62607 781.5 has been removed'.
+Face '979' with average vertices of '-19.66027 246.92508 781.5 has been removed'.
+Face '1012' with average vertices of '-59.247284 254.10403 402.99997 has been removed'.
+Face '1037' with average vertices of '-30.71496 249.35301 781.5 has been removed'.
+Face '1146' with average vertices of '-54.401123 276.63562 604 has been removed'.
+Face '1338' with average vertices of '-24.276562 253.56886 781.5 has been removed'.
+Face '1350' with average vertices of '-63.863575 260.7478 402.99997 has been removed'.
+Face '1414' with average vertices of '-56.677803 259.56482 674.5 has been removed'.
+Face '1495' with average vertices of '-82.55815 258.1495 604 has been removed'.
+Face '2169' with average vertices of '11.470116 249.14323 872 has been removed'.
+Face '2194' with average vertices of '-10.640103 253.99896 872 has been removed'.
+Face '2209' with average vertices of '-10.640101 253.99895 872 has been removed'.
+Face '2293' with average vertices of '42.47232 254.73755 964 has been removed'.
+Face '2309' with average vertices of '42.471813 254.73746 964 has been removed'.
+Face '2349' with average vertices of '36.25818 251.68044 964 has been removed'.
+Face '2469' with average vertices of '-10.640437 253.9989 872 has been removed'.
+Face '2618' with average vertices of '37.63076 260.2224 964 has been removed'.
+Face '3292' with average vertices of '18.247475 255.8856 952 has been removed'.
+Face '3296' with average vertices of '76.68851 239.15732 1048 has been removed'.
+Face '3320' with average vertices of '79.43451 256.24146 1048 has been removed'.
+Face '3424' with average vertices of '187.75746 258.56305 1123 has been removed'.
+Face '3438' with average vertices of '186.38387 250.02087 1123 has been removed'.
+Face '3483' with average vertices of '181.54332 255.50592 1123 has been removed'.
+Face '3566' with average vertices of '82.18085 273.32562 1048 has been removed'.
+Face '3753' with average vertices of '181.54282 255.50583 1123 has been removed'.
+Face '3836' with average vertices of '57.324287 261.09717 1048 has been removed'.
+Face '4433' with average vertices of '285.36612 249.79593 1212 has been removed'.
+Face '4460' with average vertices of '249.48578 256.34427 1212 has been removed'.
+Face '4475' with average vertices of '256.37085 255.49796 1212 has been removed'.
+Face '4497' with average vertices of '283.95673 250.57742 1230.8572 has been removed'.
+Face '4686' with average vertices of '255.67432 273.00525 1212 has been removed'.
+Face '4752' with average vertices of '278.42407 256.84595 1230.8572 has been removed'.
+Face '5489' with average vertices of '376.74356 235.6958 1290.6666 has been removed'.
+Face '5495' with average vertices of '407.99994 247.85019 1296 has been removed'.
+Face '6187' with average vertices of '428.13623 254.70377 1375.9979 has been removed'.
+Face '6189' with average vertices of '448.2725 253.40744 1411.9979 has been removed'.
+Face '6192' with average vertices of '425.39005 237.61949 1423.9979 has been removed'.
+Face '6198' with average vertices of '437.49756 236.83763 1451.1979 has been removed'.
+Face '6205' with average vertices of '428.13638 254.70367 1423.9979 has been removed'.
+Face '6210' with average vertices of '428.13605 254.70361 1423.9979 has been removed'.
+Face '6215' with average vertices of '428.1364 254.7038 1311.9979 has been removed'.
+Face '6236' with average vertices of '437.19492 256.5829 1431.9978 has been removed'.
+Face '6239' with average vertices of '442.94797 256.21246 1445.712 has been removed'.
+Face '6243' with average vertices of '437.17645 256.58572 1443.4264 has been removed'.
+Face '6245' with average vertices of '442.16324 251.33124 1445.712 has been removed'.
+Face '6249' with average vertices of '431.4234 256.95618 1426.2836 has been removed'.
+Face '6257' with average vertices of '436.39197 251.70456 1453.7122 has been removed'.
+Face '6300' with average vertices of '422.41586 250.75676 1363.9979 has been removed'.
+Face '6316' with average vertices of '430.8824 271.7878 1423.9979 has been removed'.
+Face '6322' with average vertices of '442.98926 271.00583 1451.1979 has been removed'.
+Face '6371' with average vertices of '431.44128 256.9532 1431.9978 has been removed'.
+Face '6376' with average vertices of '431.4234 256.95615 1439.9978 has been removed'.
+Face '6422' with average vertices of '428.13596 254.70363 1363.9979 has been removed'.
+Face '6443' with average vertices of '408 256.00006 1311.9979 has been removed'.
+Face '6688' with average vertices of '428.13623 254.70377 1247.9979 has been removed'.
+Face '7801' with average vertices of '448.3361 253.3971 1467.9977 has been removed'.
+Face '7816' with average vertices of '544.0927 244.76079 1461.1357 has been removed'.
+Face '7853' with average vertices of '524.5757 262.34106 1464.5455 has been removed'.
+Face '7873' with average vertices of '523.0872 262.21347 1464.5573 has been removed'.
+Face '7877' with average vertices of '541.79675 259.0032 1464.4043 has been removed'.
+Face '7904' with average vertices of '540.4199 257.08133 1462.703 has been removed'.
+Face '8025' with average vertices of '536.2314 256.7223 1462.7358 has been removed'.
+Face '8029' with average vertices of '551.58655 262.25064 1462.6207 has been removed'.
+Face '8368' with average vertices of '590.2245 265.55814 1467.7509 has been removed'.
+Face '8431' with average vertices of '595.51074 282.897 1436.3578 has been removed'.
+Face '8439' with average vertices of '611.7265 267.4343 1438.5376 has been removed'.
+Face '8449' with average vertices of '601.551 268.9671 1439.2938 has been removed'.
+Face '8470' with average vertices of '598.8008 268.73642 1437.0292 has been removed'.
+Face '8491' with average vertices of '599.08276 266.35226 1437.6812 has been removed'.
+Face '8535' with average vertices of '610.6382 255.32903 1447.8639 has been removed'.
+Face '8540' with average vertices of '612.4311 267.04144 1436.2029 has been removed'.
+Face '8561' with average vertices of '595.8618 270.55988 1439.3411 has been removed'.
+Face '8697' with average vertices of '575.08093 264.3001 1435.0028 has been removed'.
+Face '9416' with average vertices of '-55.515427 280.87158 335.99994 has been removed'.
+Found more faces in mesh '3c025fae-1680-42a9-b6ac-46da423aa332' with origin at '266.22366 258.6467 777.9987' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'd86bd390-f219-498f-a82e-b24effda61f6' with origin at '-2228 -1062 -364'.
+Face '1' with average vertices of '-2568 -1062 -364 has been removed'.
+Face '4' with average vertices of '-2228 -836 -364 has been removed'.
+Face '11' with average vertices of '-2228 -1062 -364 has been removed'.
+Face '25' with average vertices of '-2228 -1288 -364 has been removed'.
+Face '28' with average vertices of '-1888 -1062 -364 has been removed'.
+Found too many faces that could potentially be holes in mesh 'd86bd390-f219-498f-a82e-b24effda61f6' with origin at '-2228 -1062 -364' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'd6b02f35-53cb-47ea-b1cb-4a7d38ec6d98' with origin at '2816 -484 -296'.
+Face '1' with average vertices of '2488 -484 -296 has been removed'.
+Face '4' with average vertices of '2816 -264 -296 has been removed'.
+Face '11' with average vertices of '2816 -484 -296 has been removed'.
+Face '25' with average vertices of '2816 -704 -296 has been removed'.
+Face '28' with average vertices of '3144 -484 -296 has been removed'.
+Found too many faces that could potentially be holes in mesh 'd6b02f35-53cb-47ea-b1cb-4a7d38ec6d98' with origin at '2816 -484 -296' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '9d23dc1d-8991-4d66-8a2a-9a9b4515a72f' with origin at '630.5 -601 -245'.
+Face '1' with average vertices of '339 -601 -245 has been removed'.
+Face '4' with average vertices of '630.5 -289 -245 has been removed'.
+Face '11' with average vertices of '630.5 -601 -245 has been removed'.
+Face '25' with average vertices of '630.5 -913 -245 has been removed'.
+Face '28' with average vertices of '922 -601 -245 has been removed'.
+Found too many faces that could potentially be holes in mesh '9d23dc1d-8991-4d66-8a2a-9a9b4515a72f' with origin at '630.5 -601 -245' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'b49b2bc5-a458-4b17-9b81-b7447baa1d3b' with origin at '641.1851 -689.1543 -207'.
+Face '5' with average vertices of '633.074 -676.9915 -207 has been removed'.
+Face '70' with average vertices of '648.11774 -676.1643 -215 has been removed'.
+Face '154' with average vertices of '655.20337 -693.5103 -215 has been removed'.
+Face '163' with average vertices of '654.7457 -693.80273 -201.66667 has been removed'.
+Face '195' with average vertices of '653.27924 -697.3058 -207 has been removed'.
+Face '274' with average vertices of '645.5095 -703.25116 -199 has been removed'.
+Face '408' with average vertices of '626.8916 -686.249 -207 has been removed'.
+Face '486' with average vertices of '654.3794 -694.6749 -191 has been removed'.
+Found more faces in mesh 'b49b2bc5-a458-4b17-9b81-b7447baa1d3b' with origin at '641.1851 -689.1543 -207' than expected, likely caused by having a hole surrounded by faces all around.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Found less faces in mesh '601615dd-5570-4c5a-8892-170a08b73bb5' with origin at '767.9364 -689.1543 -199' than expected.
+- Attempting to remove extra faces found in mesh '3e2ab9d3-e08d-4dfc-bfd0-02e328f32168' with origin at '640 -1136 -732'.
+Face '1' with average vertices of '448 -1136 -732 has been removed'.
+Face '4' with average vertices of '640 -960 -732 has been removed'.
+Face '11' with average vertices of '640 -1136 -732 has been removed'.
+Face '25' with average vertices of '640 -1312 -732 has been removed'.
+Face '28' with average vertices of '832 -1136 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh '3e2ab9d3-e08d-4dfc-bfd0-02e328f32168' with origin at '640 -1136 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'ec378e23-24e9-4524-bd4a-1af77c6076cb' with origin at '512 -896 -732'.
+Face '1' with average vertices of '320 -896 -732 has been removed'.
+Face '4' with average vertices of '512 -832 -732 has been removed'.
+Face '11' with average vertices of '512 -896 -732 has been removed'.
+Face '25' with average vertices of '512 -960 -732 has been removed'.
+Face '28' with average vertices of '704 -896 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh 'ec378e23-24e9-4524-bd4a-1af77c6076cb' with origin at '512 -896 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '41dcc72c-419e-4719-bf38-e6fd4d9bb4f7' with origin at '384 -1024 -732'.
+Face '1' with average vertices of '384 -960 -732 has been removed'.
+Face '3' with average vertices of '384 -1024 -696 has been removed'.
+Face '10' with average vertices of '384 -1024 -732 has been removed'.
+Face '25' with average vertices of '448 -1024 -732 has been removed'.
+Face '56' with average vertices of '384 -1024 -768 has been removed'.
+Found too many faces that could potentially be holes in mesh '41dcc72c-419e-4719-bf38-e6fd4d9bb4f7' with origin at '384 -1024 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '95c6d6d4-b471-4539-9615-0a9f94d2f3a5' with origin at '416 -768 -732'.
+Face '1' with average vertices of '320 -768 -732 has been removed'.
+Face '4' with average vertices of '416 -704 -732 has been removed'.
+Face '11' with average vertices of '416 -768 -732 has been removed'.
+Face '25' with average vertices of '416 -832 -732 has been removed'.
+Face '28' with average vertices of '512 -768 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh '95c6d6d4-b471-4539-9615-0a9f94d2f3a5' with origin at '416 -768 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh '248214a5-0768-41cb-b1fa-2bb6dcfe534c' with origin at '784 -896 -732'.
+Face '1' with average vertices of '704 -896 -732 has been removed'.
+Face '4' with average vertices of '784 -832 -732 has been removed'.
+Face '11' with average vertices of '784 -896 -732 has been removed'.
+Face '25' with average vertices of '784 -960 -732 has been removed'.
+Face '28' with average vertices of '864 -896 -732 has been removed'.
+Found too many faces that could potentially be holes in mesh '248214a5-0768-41cb-b1fa-2bb6dcfe534c' with origin at '784 -896 -732' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+- Attempting to remove extra faces found in mesh 'b1e0d555-f638-4624-8531-cdd12816f31d' with origin at '640 -1176 -560'.
+Face '1' with average vertices of '631.26526 -1189.0387 -560 has been removed'.
+Face '14' with average vertices of '631.1527 -1187.9209 -556 has been removed'.
+Face '33' with average vertices of '632.3744 -1188.7017 -556 has been removed'.
+Face '109' with average vertices of '631.2481 -1162.9752 -560 has been removed'.
+Successfully removed extra faces found in mesh 'b1e0d555-f638-4624-8531-cdd12816f31d' with origin at '640 -1176 -560'.
+- Attempting to remove extra faces found in mesh '7d67e7fa-620a-45fd-af6e-cc44862f8037' with origin at '1291.7357 -2152 -589.37665'.
+Face '1' with average vertices of '1199.4714 -2152 -589.37665 has been removed'.
+Face '4' with average vertices of '1291.7357 -2088 -589.37665 has been removed'.
+Face '11' with average vertices of '1291.7357 -2152 -589.37665 has been removed'.
+Face '25' with average vertices of '1291.7357 -2216 -589.37665 has been removed'.
+Face '28' with average vertices of '1384 -2152 -589.37665 has been removed'.
+Found too many faces that could potentially be holes in mesh '7d67e7fa-620a-45fd-af6e-cc44862f8037' with origin at '1291.7357 -2152 -589.37665' than expected.
+This can lead to faces being created that do not exist in the level. Consider splitting the mesh up into multiple meshes to avoid this.
+If you can't see an issue in your radar image, you can safely ignore this.
+
+Finished sorting the data
+Linking child element ids...
+If you are using meshes that have lots of faces (therefore vertices), this might take a while...
+Finished linking child element ids...
+
+Getting prop data...
+
+Finished getting prop data
+
+
+Number of level heights found: 2
+
+Generating radars...
+
+
+---------------------------------------------------------------------
+
+Generating radar level 0...
+Drawing...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: First)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: First) complete
+	Drawing mesh/point entities (OverlayOrder: First, RadGenBoxOrder: None)...
+	Drawing mesh/point entities (OverlayOrder: First, RadGenBoxOrder: None) complete
+	Drawing meshes...
+		Excluding removes areas...
+		Excluding removes areas complete
+		Drawing paths...
+			Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: BetweenPathAndOverlapMeshes)...
+			Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: BetweenPathAndOverlapMeshes) complete
+			Drawing mesh/point entities (OverlayOrder: BetweenPathAndOverlapMeshes, RadGenBoxOrder: None)...
+			Drawing mesh/point entities (OverlayOrder: BetweenPathAndOverlapMeshes, RadGenBoxOrder: None) complete
+		Drawing paths complete
+	Drawing meshes complete
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshes)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshes) complete
+	Drawing mesh/point entities (OverlayOrder: AfterRadGenMeshes, RadGenBoxOrder: None)...
+	Drawing mesh/point entities (OverlayOrder: AfterRadGenMeshes, RadGenBoxOrder: None) complete
+	Drawing mesh entities...
+	Drawing mesh entities complete
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterMeshEntities)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterMeshEntities) complete
+	Drawing radgen texture meshes...
+	Drawing radgen texture meshes complete
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshesForEntities)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshesForEntities) complete
+Finished drawing
+Drawing strokes...
+This might take a while if subdivisions are highly used...
+Finished drawing strokes
+Generating radar level 0 complete
+
+---------------------------------------------------------------------
+
+Generating radar level 1...
+Drawing...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: First)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: First) complete
+	Drawing mesh/point entities (OverlayOrder: First, RadGenBoxOrder: None)...
+	Drawing mesh/point entities (OverlayOrder: First, RadGenBoxOrder: None) complete
+	Drawing meshes...
+		Excluding removes areas...
+		Excluding removes areas complete
+		Drawing paths...
+			Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: BetweenPathAndOverlapMeshes)...
+			Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: BetweenPathAndOverlapMeshes) complete
+			Drawing mesh/point entities (OverlayOrder: BetweenPathAndOverlapMeshes, RadGenBoxOrder: None)...
+			Drawing mesh/point entities (OverlayOrder: BetweenPathAndOverlapMeshes, RadGenBoxOrder: None) complete
+		Drawing paths complete
+	Drawing meshes complete
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshes)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshes) complete
+	Drawing mesh/point entities (OverlayOrder: AfterRadGenMeshes, RadGenBoxOrder: None)...
+	Drawing mesh/point entities (OverlayOrder: AfterRadGenMeshes, RadGenBoxOrder: None) complete
+	Drawing mesh entities...
+	Drawing mesh entities complete
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterMeshEntities)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterMeshEntities) complete
+	Drawing radgen texture meshes...
+	Drawing radgen texture meshes complete
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshesForEntities)...
+	Drawing mesh/point entities (OverlayOrder: None, RadGenBoxOrder: AfterRadGenMeshesForEntities) complete
+Finished drawing
+Drawing strokes...
+This might take a while if subdivisions are highly used...
+Finished drawing strokes
+Generating radar level 1 complete
+
+---------------------------------------------------------------------
+
+Getting background to radar levels...
+Getting background to radar levels complete
+
+
+Saving radar level 'default'...
+Saving radar level 'default' complete
+
+Saving radar level 'higher1'...
+Saving radar level 'higher1' complete
+
+Generating radars complete
+
+
+Generating txt
+Saved overview txt file at 'C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_addons\de_nuke_custom2\resource\overviews\de_nuke_custom.txt'
+Generating txt complete
+
+
+RadGen version: v1.0.0
+
+
+
+---- Updating Overview ----
+
+
+
+
+Generating settings txt 'de_nuke_custom'
+Generating settings txt 'de_nuke_custom' complete
+Generating vmat 'de_nuke_custom'
+Generating vmat 'de_nuke_custom' complete
+Compiling vmat 'de_nuke_custom' into vmat_c & creating vtex_c
+Compiling vmat 'de_nuke_custom' into vmat_c & creating vtex_c complete
+Renaming vtex_c 'de_nuke_custom'
+Renaming vtex_c 'de_nuke_custom' complete
+Creating spectate vtex_c 'de_nuke_custom'
+Creating spectate vtex_c 'de_nuke_custom' complete
+
+---------------------------------------------------------------------
+
+Generating settings txt 'de_nuke_custom_higher1'
+Generating settings txt 'de_nuke_custom_higher1' complete
+Generating vmat 'de_nuke_custom_higher1'
+Generating vmat 'de_nuke_custom_higher1' complete
+Compiling vmat 'de_nuke_custom_higher1' into vmat_c & creating vtex_c
+Compiling vmat 'de_nuke_custom_higher1' into vmat_c & creating vtex_c complete
+Renaming vtex_c 'de_nuke_custom_higher1'
+Renaming vtex_c 'de_nuke_custom_higher1' complete
+Creating spectate vtex_c 'de_nuke_custom_higher1'
+Creating spectate vtex_c 'de_nuke_custom_higher1' complete
+
+---------------------------------------------------------------------
+
+
+
+
+This process has now finished!
+
+If you'd like to support me, you can do so here:
+https://ko-fi.com/jimwood
+https://www.buymeacoffee.com/jimwood
+Thanks, and enjoy!
+
+Don't forget to close this window!
+

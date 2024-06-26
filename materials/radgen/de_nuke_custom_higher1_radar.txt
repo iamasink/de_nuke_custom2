@@ -1,0 +1,14 @@
+// Generated with RadGen v1.0.0
+
+"settings"
+{
+	"nomip"		"1"
+	"mip_filter_strength"		"0.000000"
+	"clampu"		"1"
+	"clampv"		"1"
+	"clampw"		"1"
+	"nocompress"		"1"
+	"nolod"		"1"
+	"minimum_encode_quality"		"3"
+	"maxres"		"1024"
+}

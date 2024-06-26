@@ -1,0 +1,26 @@
+// Generated with RadGen v1.0.0
+
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "csgo_decalmodulate.vfx"
+
+	//---- Color ----
+	DecalColor "panorama/images/overheadmaps/de_nuke_custom_higher1_radar.tga"
+	g_flTexCoordRotation "0.000"
+	g_nScaleTexCoordUByModelScaleAxis "0"
+	g_nScaleTexCoordVByModelScaleAxis "0"
+	g_vColorTint "[0.000000 0.000000 0.000000 1.000000]"
+	g_vTexCoordCenter "[0.500 0.500]"
+	g_vTexCoordOffset "[0.000 0.000]"
+	g_vTexCoordScale "[1.000 1.000]"
+
+	//---- Texture Address Mode ----
+	g_nTextureAddressModeU "0"
+	g_nTextureAddressModeV "0"
+
+	//---- Translucent ----
+	DecalTranslucency "materials/default/default_trans.tga"
+	g_flAlphaTestReference "1.000"
+}

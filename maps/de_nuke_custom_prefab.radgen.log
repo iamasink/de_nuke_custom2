@@ -1,0 +1,40 @@
+
+
+
+---------------------------------------------------------------------
+
+RadGen started at: 01/01/0001 00:00:00
+
+
+RadGen version: v1.0.0
+
+---- Arguments ----
+
+---- Game Configuration Values ----
+addon name: de_nuke_custom2
+content Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\
+game Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\
+content csgo Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo\
+game csgo Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\
+bin Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\bin\
+overviews image Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\panorama\images\overheadmaps\
+overviews txt Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_addons\de_nuke_custom2\resource\overviews\
+overviews settings txt Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\radgen\
+overviews vmat Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\radgen\
+overviews vtex_c Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_addons\de_nuke_custom2\panorama\images\overheadmaps\
+dz tablet Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\models\weapons\v_models\tablet\
+dz spawn select Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\materials\panorama\images\survival\spawnselect\
+RadGen extras Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\_radgen_extras\
+vmap Filepath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\maps\de_nuke_custom_prefab.vmap
+vmap Name: de_nuke_custom_prefab
+vmap Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\maps\
+content addon Filepath Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\content\csgo_addons\de_nuke_custom2\
+game addon Filepath Directory: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo_addons\de_nuke_custom2\
+
+
+---- Generating Overview ----
+
+
+
+Reading VMAP...
+Decoding VMAP to keyvalues2...
